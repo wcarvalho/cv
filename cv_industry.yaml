@@ -1,0 +1,18 @@
+# (tag, section type, title)
+order:
+  - [about, NONE]
+  - [news, News]
+  - [contact, Contact Information]
+  - [research_interests, Research Interests]
+  - [education, Education]
+  - [research, Research Experience]
+  - [selected_publications, Selected Publications]
+  - [NEWPAGE, NEWPAGE]
+  - [teaching, Teaching Experience]
+  - [industry, Industry Experience]
+  # - [projects, Projects]
+  - [coursework, CMU Graduate Coursework]
+  - [honors, Honors \& Awards]
+  - [skills, Skills]
+  - [NEWPAGE, NEWPAGE]
+  - [all_publications, All Publications]

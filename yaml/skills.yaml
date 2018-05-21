@@ -1,0 +1,9 @@
+skills:
+  - title: Deep Learning Software
+    details: TensorFlow, Theano, Pytorch, Keras
+  - title: Neuroscience Software
+    details: Neuron
+  - title: Languages
+    details: Python, C++, C, Java
+  - title: Systems
+    details: Unix, Linux, OSX

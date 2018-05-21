@@ -1,0 +1,13 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  ~< for item in items >~
+    ~< if item.url >~
+      \href{<<item.url>>}{\color{links}<<item.name>>}
+    ~< else >~
+      <<item.name>>
+    ~< endif >~
+  \\
+  ~< endfor >~
+\vspace{-.15in}
+~< endblock body >~

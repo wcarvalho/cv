@@ -1,0 +1,27 @@
+education:
+  - school: University of Michigan--Ann Arbor
+    location: Ann Arbor, Michigan USA
+    department: School of Engineering
+    degree: Ph.D. in Computer Science \& Engineering
+    completion: May 2022
+
+  - school: University of Southern California
+    location: Los Angeles, California USA
+    department: Viterbi School of Engineering
+    degree: M.S. in Computer Science
+    completion: May 2017
+    advisor_name: Yan Liu
+    advisor_website: http://www-bcf.usc.edu/~liu32/
+
+  - school: Stony Brook University
+    location: Stony Brook, New York USA
+    department: College of Arts and Sciences
+    degree: B.S. in Physics
+    completion: May 2015
+    advisor_name: Axel Drees
+    advisor_website: http://www.stonybrook.edu/commcms/nuclear-experiment/personal/axeldrees.html
+
+  - school: Brooklyn Technical High School
+    location: Brooklyn, New York USA
+    degree: Diploma in Applied Physics
+    completion: May 2011

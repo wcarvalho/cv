@@ -1,0 +1,16 @@
+conference_publications:
+  - title: Variational Recurrent Adversarial Domain Adaptation
+    authors: Sanjay Purushotham$^*$, \wilka$^*$, Tanachat Nilanon, Yan Liu
+    venue: 5th International Conference on Learning Representations (ICLR)
+    year: 2017
+
+  - title: Variational Adversarial Deep Domain Adaptation for Health Care Time Series Analysis
+    authors: Sanjay Purushotham$^*$, \wilka$^*$, Yan Liu
+    venue: 29th Annual Conference on Neural Information Processing Systems Workshop on Machine Learning for Healthcare (NIPS ML4HC)
+    year: 2016 
+    spotlight: true
+
+  - title: Modeling a Detection of internally reflected Cherenkov light (DIRC) Particle Detector for High-Multiplicity Collisions
+    authors: \wilka
+    venue: State University of New York Undergraduate Research Conference (SURC)
+    year: 2015

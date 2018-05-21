@@ -1,0 +1,78 @@
+research:
+  - place: IBM Almaden
+    location: San Jose, California USA
+    lab: IBM Research
+    dates: September 2017 -- December 2017
+    details:
+      - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
+      - Developed baseline and state-of-the-art neural networks using Tensorflow.
+      - Built data pipeline for large image dataset.
+
+  - place: Visa
+    location: Palo Alto, California USA
+    lab: Visa Research
+    dates: June 2017 -- August 2017
+    details:
+      - Formulated a novel neural network for learning a language model.
+      - Implemented model and baselines for language generation and question answering using Tensorflow and Facebook’s ParlAI NLP software.
+      - Performed extensive literature reviews on machine reading comprehension and generative models.
+
+  - place: University of Southern California
+    location: Los Angeles, California USA
+    lab: Melady Machine Learning Lab
+    dates: November 2015 -- May 2017
+    advisor: Yan Liu
+    project: "Samsung and NSF funded project: ``Variational Adversarial Deep Domain Adaptation for Health Care Time Series Analysis''"
+    details:
+      - Implemented novel neural network that employed variational inference and adversarial training for transfer learning of multivariate time-series.
+      - Proposed analyses used in publications to empirically verify that our model (a) performed domain adaptation by creating domain-invariant representations and (b) transferred temporal dependencies across domains. Research led to 2 publications and a patent.
+      - Communicated research to general public through research feature by the USC Graduate School and to technical audience at ICLR poster presentation.
+
+  - place: Stony Brook Univeristy
+    location: Stony Brook, New York USA
+    lab: Heavy Ion Research Group
+    dates: January 2013 -- August 2015
+    advisor: Axel Drees
+    project: "DOE funded project: ``Modeling a Detection of internally reflected Cherenkov light Particle Detector for High-Multiplicity Collisions''"
+    details:
+      - Built and maintained a simulator in C++ for the heavy ion particle detector at the Brookhaven National Laboratory.
+      - Contributed methods from multivariate calculus and linear algebra to particle detection algorithm. Accuracy improved from 60\% to 80\%.
+      - Designed and implemented a statistical analysis pipeline in C++ for measuring efficacy of particle detection algorithm.
+
+  - place: Stony Brook Univeristy
+    location: Stony Brook, New York USA
+    lab: Computational Neuroscience Group
+    dates: Fall 2014
+    advisor: Giancarlo La Camera
+    project: "NSF LSAMP funded project: ``Spectral Analysis of Rodent Neural Data''"
+    details:
+      - Performed spectral analyses on neural data to determine behavioral correlates of neural activity.
+
+  - place: California Institute of Technology
+    location: Pasadena, California USA
+    lab: Emotion and Social Cognition Laboratory
+    dates: Summer 2014
+    advisor: Ralph Adolphs
+    project: "HHMI funded project: ``Modeling the Cognitive Process of Attributing Traits to Others''"
+    details:
+      - Formulated a trait learning behavioral experiment to study human inference.
+      - Built online platform to administer psychology experiments using Javascript, PHP, and HTML.
+    
+  - place: University of Minnesota
+    location: Minneapolis, Minnesota USA
+    lab: Neuromodulation Research and Technology Laboratory
+    dates: Summer 2013
+    advisor: Matthew Johnson
+    project: "NIH funded project: ``Modeling Deep Brain Stimulation of Globus Palidus Internus''"
+    details:
+      - Implemented python script to build a biologically feasible computational model of neural networks
+      - Created template for using python to simulate deep brain stimulation with “Neuron” software
+    
+    place: National Central
+    location: University, Jhongli City, Taiwan
+    lab: Turbulent Combustion Laboratory
+    dates: Summer 2012
+    advisor: Shenqyang Shy
+    project: "``Empricial Analysis of Theories from Fluid Dynamics''"
+    details:
+      - Explored boundary layer conditions, and laminar and turbulent flow of fluids through pipes of varying cross-sections.

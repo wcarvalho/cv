@@ -1,8 +1,8 @@
 ~< extends "section.tex" >~
 
 ~< block body >~
-  ~< for item in items >~
-    << item.title >>: << item.details >> \\
+  ~< for talk in items >~
+    << talk.name >>. << talk.location >>. (<< talk.date >>) \\
   ~< endfor >~
 \vspace{-.15in}
 ~< endblock body >~

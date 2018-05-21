@@ -1,0 +1,11 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  ~< for poster in items >~
+    ``<<poster.title>>.'' {\it <<poster.venue>>}, <<poster.location>>, <<poster.year>>.
+    ~< if poster.emphasis >~
+      {\bf <<poster.emphasis>>}
+    ~< endif >~
+
+  ~< endfor >~
+~< endblock body >~

@@ -1,10 +1,11 @@
 # Makefile to build PDF and Markdown cv from YAML.
 #
+# Wilka Carvalho <http://wcarvalho.github.io> and
 # Brandon Amos <http://bamos.github.io> and
 # Ellis Michael <http://ellismichael.com>
 
-WEBSITE_DIR=$(HOME)/repos/website
-WEBSITE_PDF=$(WEBSITE_DIR)/data/cv.pdf
+WEBSITE_DIR=$(HOME)/git/wcarvalho.github.io
+WEBSITE_PDF=$(WEBSITE_DIR)/files/wilka_carvalho_CV.pdf
 WEBSITE_MD=$(WEBSITE_DIR)/_includes/cv.md
 WEBSITE_DATE=$(WEBSITE_DIR)/_includes/last-updated.txt
 
@@ -15,11 +16,11 @@ TEX=$(BUILD_DIR)/cv.tex
 PDF=$(BUILD_DIR)/cv.pdf
 MD=$(BUILD_DIR)/cv.md
 
-ifneq ("$(wildcard cv.hidden.yaml)","")
-	YAML_FILES = cv.yaml cv.hidden.yaml
-else
-	YAML_FILES = cv.yaml
-endif
+# ifneq ("$(wildcard cv.hidden.yaml)","")
+YAML_FILES=yaml/*.yaml
+# else
+	# YAML_FILES = cv_academic.yaml
+# endif
 
 .PHONY: all public viewpdf stage jekyll push clean
 
@@ -28,21 +29,22 @@ all: $(PDF) $(MD)
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-public: $(BUILD_DIR) $(TEMPLATES) $(YAML_FILES) generate.py
-	./generate.py cv.yaml
+# public: $(BUILD_DIR) $(TEMPLATES) $(YAML_FILES) generate.py
+# 	ipython generate.py -- content.yaml --format cv_academic.yaml
 
 $(TEX) $(MD): $(TEMPLATES) $(YAML_FILES) generate.py
-	./generate.py $(YAML_FILES)
+	ipython generate.py -- $(YAML_FILES) cv_academic.yaml
+	# ipython generate.py -- content.yaml --format cv_industry.yaml
 
 $(PDF): $(TEX) publications/*.bib
 	# TODO: Hack for biber on OSX.
-	rm -rf /var/folders/8p/lzk2wkqj47g5wf8g8lfpsk4w0000gn/T/par-62616d6f73
+	# rm -rf /var/folders/zt/2qb2nh5x04d3x7qxgpgvlkk40000gn/T/par-77696c6b61/cache-ec7adafccc6b3891989ad6eb09778d44c1fecb97
 
-	latexmk -pdf -cd- -jobname=$(BUILD_DIR)/cv $(BUILD_DIR)/cv
-	latexmk -c -cd $(BUILD_DIR)/cv
+	cd $(BUILD_DIR) && latexmk -pdf cv
+
 
 viewpdf: $(PDF)
-	gnome-open $(PDF)
+	open $(PDF)
 
 stage: $(PDF) $(MD)
 	cp $(PDF) $(WEBSITE_PDF)

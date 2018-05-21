@@ -2,15 +2,9 @@
 
 {% block body %}
 
+<table class="table table-hover">
 {% for school in items %}
-  <strong> {{school.school}} </strong>, {{school.location}}<br>
-  {% if school.department %}
-    <i>{{school.department}}</i>,
-  {% endif %}
-  {{school.degree}}, {{school.completion}}
-
-<!-- <table class="table table-hover"> -->
-<!--   <tr>
+  <tr>
     <td class="col-md-3">{{ school.dates }}</td>
     <td>
       {% if school.degree %}
@@ -22,7 +16,7 @@
       {% endif %}
       {{ school.school }}
     </td>
-  </tr> -->
+  </tr>
 {% endfor %}
 </table>
 {% endblock body %}

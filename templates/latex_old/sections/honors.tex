@@ -1,13 +1,14 @@
 ~< extends "section.tex" >~
 
 ~< block body >~
+\begin{itemize}
   ~< for award in items >~
-    << award.title >> \hfill << award['year'] >> \\
+    \item << award.title >> \hfill << award['year'] >>
     ~< if award.descr >~
       \begin{itemize}
       \item << award.descr >>
       \end{itemize}
     ~< endif >~
   ~< endfor >~
-\vspace{-.15in}
+\end{itemize}
 ~< endblock body >~

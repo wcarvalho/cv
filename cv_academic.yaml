@@ -1,0 +1,43 @@
+# (tag, section type, title)
+order:
+  - [research_interests, Research Interests]
+  - [education, Education]
+  - [honors, Honors \\ \& Awards]
+  - [conference_publications, Conference Publications]
+  - [talks, Invited Talks]
+  - [symposium, Symposium Presentations]
+  - [research, Research Experience]
+  - [teaching, Teaching Experience]
+  - [service, Service]
+  - [outreach, Outreach]
+  - [skills, Skills]
+  - [press, Press]
+  - [interests, Interests]
+  # - [selected_publications, Selected Publications]
+  # - [NEWPAGE, NEWPAGE]
+  # - [industry, Industry Experience]
+  # # - [projects, Projects]
+  # - [coursework, CMU Graduate Coursework]
+  # - [NEWPAGE, NEWPAGE]
+
+research_interests:
+  - category: Machine Learning
+    examples: Implicit Inference, Bayesian Nonparametric Models, Generative Models
+
+  - category: Reinforcement Learning
+    examples: Value Estimation, Credit Assignment, Intrinsic Motivation
+  
+  - category: Computational Cognitive Science
+    examples: Stereotyping, Causality, Compositionality
+
+  - category: Theoretical Neuroscience
+    examples: Neural Networks, Sub-symbolic \& Distributed Representations
+
+
+
+interests:
+  - traveling 
+  - chess 
+  - software development 
+  - improvisational dance 
+  - deadpan humor

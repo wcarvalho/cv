@@ -7,11 +7,13 @@ __author__ = [
     'Ellis Michael <http://ellismichael.com>',
 ]
 
+import ipdb
 import argparse
 import copy
 import os
 import re
 import yaml
+import pprint
 
 import bibtexparser.customization as bc
 from bibtexparser.bparser import BibTexParser
@@ -130,7 +132,7 @@ def get_pub_md(context, config):
 '''.format(title, author_str, yearVenue, note_str, links, abstract)
 
     def load_and_replace(bibtex_file):
-        with open(os.path.join('publications', bibtex_file), 'r') as f:
+        with open(os.path.join('publications', bibtex_file+'.bib'), 'r') as f:
             p = BibTexParser(f.read(), bc.author).get_entry_list()
         for pub in p:
             for field in pub:
@@ -226,9 +228,11 @@ class RenderContext(object):
             groups.append(group)
         return groups
 
-    def render_resume(self, yaml_data):
+    def render_resume(self, yaml_data, format_data):
         # Make the replacements first on the yaml_data
+
         yaml_data = self.make_replacements(yaml_data)
+        yaml_data.update(self.make_replacements(format_data))
 
         body = ''
         for section_tag, section_title in yaml_data['order']:
@@ -246,26 +250,31 @@ class RenderContext(object):
                     continue
                 section_template_name = os.path.join(self.SECTIONS_DIR, 'news.md')
                 section_data['items'] = section_content
-            elif section_tag in ['coursework', 'education', 'honors',
-                                 'industry', 'research',
-                                 'skills', 'teaching']:
+            elif section_tag in ['coursework',
+                                'education', 
+                                'honors',
+                                'industry',
+                                'research',
+                                'skills',
+                                'teaching']:
                 section_data['items'] = section_content
                 section_template_name = os.path.join(
                     self.SECTIONS_DIR, section_tag + self._file_ending)
-            elif 'publications' in section_tag:
-                if self._file_ending == ".tex":
-                    section_data['content'] = section_content
-                elif self._file_ending == ".md":
-                    section_data['content'] = get_pub_md(self, section_content)
-                section_data['scholar_id'] = yaml_data['social']['google_scholar']
-                section_template_name = os.path.join(
-                    self.SECTIONS_DIR, section_tag + self._file_ending)
+            # elif 'publications' in section_tag:
+            #     if self._file_ending == ".tex":
+            #         section_data['content'] = section_content
+            #     elif self._file_ending == ".md":
+            #         section_data['content'] = get_pub_md(self, section_content)
+            #     section_data['scholar_id'] = yaml_data['social']['google_scholar']
+            #     section_template_name = os.path.join(
+            #         self.SECTIONS_DIR, section_tag + self._file_ending)
             elif section_tag == 'NEWPAGE':
                 pass
             else:
-                print("Error: Unrecognized section tag: {}".format(section_tag))
-                # sys.exit(-1) TODO
-                continue
+                section_data['items'] = section_content
+                section_template_name = os.path.join(
+                    self.SECTIONS_DIR, section_tag + self._file_ending)
+                # continue
 
             if section_tag == 'NEWPAGE':
                 if self._file_ending == ".tex":
@@ -333,13 +342,12 @@ MARKDOWN_CONTEXT = RenderContext(
 )
 
 
-def process_resume(context, yaml_data, preview):
-    rendered_resume = context.render_resume(yaml_data)
+def process_resume(context, yaml_data, format_data, preview):
+    rendered_resume = context.render_resume(yaml_data, format_data)
     if preview:
         print(rendered_resume)
     else:
         context.write_to_outfile(rendered_resume)
-
 
 def main():
     # Parse the command line arguments
@@ -347,6 +355,7 @@ def main():
     parser.add_argument('yamls', metavar='YAML_FILE', nargs='+',
                         help='The YAML files that contain the resume/cv'
                         'details, in order of increasing precedence')
+    parser.add_argument('-f', '--format', default=None, help='YAML describing formatting for output. Usage currently: Industry vs. Academic.')
     parser.add_argument('-p', '--preview', action='store_true',
                         help='prints generated content to stdout instead of writing to file')
     group = parser.add_mutually_exclusive_group()
@@ -358,17 +367,24 @@ def main():
 
     yaml_data = {}
     for yaml_file in args.yamls:
+        print(yaml_file)
         with open(yaml_file) as f:
             yaml_data.update(yaml.load(f))
 
+    format_data = {}
+
+    # if not args.format: import os; os.exit(0)
+    # with open(args.format) as f:
+    #     format_data.update(yaml.load(f))
+
     if args.latex or args.markdown:
         if args.latex:
-            process_resume(LATEX_CONTEXT, yaml_data, args.preview)
+            process_resume(LATEX_CONTEXT, yaml_data, format_data, args.preview)
         elif args.markdown:
-            process_resume(MARKDOWN_CONTEXT, yaml_data, args.preview)
+            process_resume(MARKDOWN_CONTEXT, yaml_data, format_data, args.preview)
     else:
-        process_resume(LATEX_CONTEXT, yaml_data, args.preview)
-        process_resume(MARKDOWN_CONTEXT, yaml_data, args.preview)
+        process_resume(LATEX_CONTEXT, yaml_data, format_data, args.preview)
+        process_resume(MARKDOWN_CONTEXT, yaml_data, format_data, args.preview)
 
 
 if __name__ == "__main__":
