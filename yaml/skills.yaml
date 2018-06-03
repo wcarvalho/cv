@@ -1,6 +1,7 @@
 skills:
-  - title: Deep Learning Software
+  - title: Machine Learning Software
     details: TensorFlow, Theano, Pytorch, Keras
+    # Scikit-learn, numpy
   - title: Neuroscience Software
     details: Neuron
   - title: Languages

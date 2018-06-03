@@ -7,6 +7,7 @@ research:
       - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
       - Developed baseline and state-of-the-art neural networks using Tensorflow.
       - Built data pipeline for large image dataset.
+      # - Research was presented in global meeting to IBM executives including CEO and selected for funding.
 
   - place: Visa
     location: Palo Alto, California USA

@@ -1,6 +1,7 @@
 # (tag, section type, title)
 order:
   - [research_interests, Research Interests]
+  - [research_topics, Research Topics]
   - [education, Education]
   - [honors, Honors \\ \& Awards]
   - [conference_publications, Conference Publications]
@@ -21,14 +22,26 @@ order:
   # - [NEWPAGE, NEWPAGE]
 
 research_interests:
+  - My research interests tend to be driven by a goal to form a bridge between the sub-symbolic representations that the brain seems to use and the 
+
+  sophisticated reasoning - improve
+
+   that seems to occur over symbolic variables within the brain. Currently, two problems drive many of the questions I think about. (1) How do we give value to abstract objects and use this to estimate state-value and (2) How do utilize statistics when we build models that aid in generalizing previous knowledge to new situations? I hope to understand what computational principles at play in these problems such as compositionality and causality.
+
+
+Before PhD starts, get a new blurb for website. You want to build a bridge between sub-symbolic and computational. At the computational level, there are 2 main problems that you're interested in: state-value estimation and how we give value to abstract objects, and social stereotyping. Want to understand computational principles that underpin this such as compositionally, casuality. Add a sub-symbolic level, I'm interested in how sophisticated representations for the world can emerge from abstractions for models and algorithms employed by the brain. For example, how can neural networks implicitly define probability distributions that are flexible.
+
+
+
+research_topics:
+  - category: Computational Cognitive Science
+    examples: Stereotyping, Causality, Compositionality
+
   - category: Machine Learning
     examples: Implicit Inference, Bayesian Nonparametric Models, Generative Models
 
   - category: Reinforcement Learning
     examples: Value Estimation, Credit Assignment, Intrinsic Motivation
-  
-  - category: Computational Cognitive Science
-    examples: Stereotyping, Causality, Compositionality
 
   - category: Theoretical Neuroscience
     examples: Neural Networks, Sub-symbolic \& Distributed Representations
