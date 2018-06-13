@@ -1,0 +1,11 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  ~< for article in items >~
+    <<article.authors>>. {\it``<<article.title>>.''} <<article.year>>
+    ~< if article.spotlight >~
+      {\bf {\color{red}(Spotlight)}}
+    ~< endif >~
+
+  ~< endfor >~
+~< endblock body >~

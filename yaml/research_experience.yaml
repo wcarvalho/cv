@@ -1,8 +1,21 @@
 research:
+  - place: Microsoft
+    location: Redmon, Washington USA
+    lab: Microsoft Research
+    dates: June 2018 -- August 2018
+    advisor: Sumit Basu
+    advisor_website: https://www.microsoft.com/en-us/research/people/sumitb/
+    # details:
+    #   - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
+    #   - Developed baseline and state-of-the-art neural networks using Tensorflow.
+    #   - Built data pipeline for large image dataset.
+
   - place: IBM Almaden
     location: San Jose, California USA
     lab: IBM Research
     dates: September 2017 -- December 2017
+    advisor: Heiko Ludwig
+    advisor_website: https://researcher.watson.ibm.com/researcher/view.php?person=us-hludwig
     details:
       - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
       - Developed baseline and state-of-the-art neural networks using Tensorflow.
@@ -13,6 +26,8 @@ research:
     location: Palo Alto, California USA
     lab: Visa Research
     dates: June 2017 -- August 2017
+    advisor: Hao Yang
+    advisor_website: https://usa.visa.com/about-visa/visa-research/hao-yang.html
     details:
       - Formulated a novel neural network for learning a language model.
       - Implemented model and baselines for language generation and question answering using Tensorflow and Facebook’s ParlAI NLP software.
@@ -23,6 +38,7 @@ research:
     lab: Melady Machine Learning Lab
     dates: November 2015 -- May 2017
     advisor: Yan Liu
+    advisor_website: http://www-bcf.usc.edu/~liu32/
     project: "Samsung and NSF funded project: ``Variational Adversarial Deep Domain Adaptation for Health Care Time Series Analysis''"
     details:
       - Implemented novel neural network that employed variational inference and adversarial training for transfer learning of multivariate time-series.
@@ -34,6 +50,7 @@ research:
     lab: Heavy Ion Research Group
     dates: January 2013 -- August 2015
     advisor: Axel Drees
+    advisor_website: http://www.stonybrook.edu/commcms/nuclear-experiment/personal/axeldrees.html
     project: "DOE funded project: ``Modeling a Detection of internally reflected Cherenkov light Particle Detector for High-Multiplicity Collisions''"
     details:
       - Built and maintained a simulator in C++ for the heavy ion particle detector at the Brookhaven National Laboratory.
@@ -45,6 +62,7 @@ research:
     lab: Computational Neuroscience Group
     dates: Fall 2014
     advisor: Giancarlo La Camera
+    advisor_website: https://medicine.stonybrookmedicine.edu/neurobiology/faculty/lacamera
     project: "NSF LSAMP funded project: ``Spectral Analysis of Rodent Neural Data''"
     details:
       - Performed spectral analyses on neural data to determine behavioral correlates of neural activity.
@@ -54,6 +72,7 @@ research:
     lab: Emotion and Social Cognition Laboratory
     dates: Summer 2014
     advisor: Ralph Adolphs
+    advisor_website: http://www.bbe.caltech.edu/content/ralph-adolphs
     project: "HHMI funded project: ``Modeling the Cognitive Process of Attributing Traits to Others''"
     details:
       - Formulated a trait learning behavioral experiment to study human inference.
@@ -64,16 +83,18 @@ research:
     lab: Neuromodulation Research and Technology Laboratory
     dates: Summer 2013
     advisor: Matthew Johnson
+    advisor_website: http://bme.umn.edu/people/faculty/johnson.html
     project: "NIH funded project: ``Modeling Deep Brain Stimulation of Globus Palidus Internus''"
     details:
       - Implemented python script to build a biologically feasible computational model of neural networks
       - Created template for using python to simulate deep brain stimulation with “Neuron” software
     
-    place: National Central
-    location: University, Jhongli City, Taiwan
+    place: National Central University
+    location: Jhongli City, Taiwan
     lab: Turbulent Combustion Laboratory
     dates: Summer 2012
     advisor: Shenqyang Shy
+    advisor_website: https://www.me.ncu.edu.tw/energy/index_Eng.pdf
     project: "``Empricial Analysis of Theories from Fluid Dynamics''"
     details:
       - Explored boundary layer conditions, and laminar and turbulent flow of fluids through pipes of varying cross-sections.

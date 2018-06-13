@@ -1,0 +1,6 @@
+preprints:
+  - title: Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering
+    authors: Bryant Chen$^*$, \wilka$^*$, Benjamin Edwards, Taesung Lee, Ian Molloy, Heiko Ludwig, Jaehoon Safavi 
+    # venue: 5th International Conference on Learning Representations (ICLR)
+    year: 2018
+

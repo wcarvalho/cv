@@ -4,16 +4,21 @@
     ~< for item in items >~
         {\bf <<item.place>>}, <<item.location>> \\
         {\bf <<item.lab>>}, {\it <<item.dates>> }
-        ~< for detail in item.details >~
-        \begin{itemize}
-          \item <<detail>>
-        \end{itemize}
-        ~< endfor >~
-        % \cvlistitem{
-        %   << item.place >>, << item.advisor >> \hfill << item.dates >>
-        %   \begin{itemize}
-        %   \item << item.area >>
-        %   \end{itemize}
-        % }
+        ~< if item.advisor >~~< if item.advisor_website >~
+            \\ Advisor: \href{<<item.advisor_website>>}{\color{links}<<item.advisor>>}
+        ~< else >~
+            \\ Advisor: <<item.advisor>> 
+            ~< endif >~
+        ~< endif >~
+        ~< if item.project >~ \\ <<item.project>> ~< endif >~
+        ~< if item.details >~
+            ~< for detail in item.details >~
+            \begin{itemize}
+              \item <<detail>>
+            \end{itemize}
+            ~< endfor >~
+        ~< else >~
+        \\ \\
+        ~< endif >~
     ~< endfor >~
 ~< endblock body >~

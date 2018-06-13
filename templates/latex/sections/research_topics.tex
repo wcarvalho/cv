@@ -2,6 +2,7 @@
 
 ~< block body >~
   ~< for item in items >~
-    \cvlistdoubleitem{<< item.first >>}{<< item.second >>}
+    {\bf << item.category >>}: << item.examples >> \\
   ~< endfor >~
+\vspace{-.15in}
 ~< endblock body >~
