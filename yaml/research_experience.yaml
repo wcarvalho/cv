@@ -1,11 +1,13 @@
 research:
   - place: Microsoft
-    location: Redmon, Washington USA
+    location: Redmond, Washington USA
     lab: Microsoft Research
     dates: June 2018 -- August 2018
     advisor: Sumit Basu
     advisor_website: https://www.microsoft.com/en-us/research/people/sumitb/
-    # details:
+    details:
+      - worked with the medical devices group, a part of Microsoft Health NEXT, to develop a machine learning model that can predict clinical measures from physiological signals measured by a wearable device.
+    
     #   - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
     #   - Developed baseline and state-of-the-art neural networks using Tensorflow.
     #   - Built data pipeline for large image dataset.
@@ -89,7 +91,7 @@ research:
       - Implemented python script to build a biologically feasible computational model of neural networks
       - Created template for using python to simulate deep brain stimulation with “Neuron” software
     
-    place: National Central University
+  - place: National Central University
     location: Jhongli City, Taiwan
     lab: Turbulent Combustion Laboratory
     dates: Summer 2012

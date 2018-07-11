@@ -1,7 +1,7 @@
 # (tag, section type, title)
 order:
-  # - [research_interests, Research Interests]
-  - [research_topics, Research Topics]
+  - [research_interests, Research Interests]
+  - [research_topics, Topics]
   - [education, Education]
   - [honors, Honors \\ \& Awards]
   - [preprints, Preprints]
@@ -23,15 +23,11 @@ order:
   # - [NEWPAGE, NEWPAGE]
 
 research_interests:
-  - My research interests tend to be driven by a goal to form a bridge between the sub-symbolic representations that the brain seems to use and the 
+  - I like to hypothesize about what ``basic'' models and algorithms the brain may employ to solve the computational problems it faces. I suspect that brains use simple models and algorithms to solve complex problems by solving and combining solutions to simpler sub-problems. For inspiration, I look towards machine learning. For example, generative models offer solutions for how brains may learn patterns that describe data production, and reinforcement learning offers solutions for how an agent can choose actions that maximize its satisfaction in the world. 
 
-#   sophisticated reasoning - improve
-
-#    that seems to occur over symbolic variables within the brain. Currently, two problems drive many of the questions I think about. (1) How do we give value to abstract objects and use this to estimate state-value and (2) How do utilize statistics when we build models that aid in generalizing previous knowledge to new situations? I hope to understand what computational principles at play in these problems such as compositionality and causality.
-
-
-# Before PhD starts, get a new blurb for website. You want to build a bridge between sub-symbolic and computational. At the computational level, there are 2 main problems that you're interested in: state-value estimation and how we give value to abstract objects, and social stereotyping. Want to understand computational principles that underpin this such as compositionally, casuality. Add a sub-symbolic level, I'm interested in how sophisticated representations for the world can emerge from abstractions for models and algorithms employed by the brain. For example, how can neural networks implicitly define probability distributions that are flexible.
-
+    I am also interested in social equity and justice, so I have more high-level interests in exploring why social stereotyping seems to {\it naturally emerge} as brains learn to create and generalize category representations for objects.
+   # A canonical example of a sub-problem that enables more complex solutions is recognizing objects in scenes. Afterwards, we can read about manh
+   # For example, how do we learn to recognize objects, how do we estimate the value of our actions, how do we reason about cause-and-effect? 
 
 
 research_topics:
