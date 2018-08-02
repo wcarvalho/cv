@@ -1,20 +1,20 @@
 research:
-  - place: Microsoft
+  - place: Microsoft Research
     location: Redmond, Washington USA
-    lab: Microsoft Research
+    lab: Medical Devices Group
     dates: June 2018 -- August 2018
     advisor: Sumit Basu
     advisor_website: https://www.microsoft.com/en-us/research/people/sumitb/
     details:
-      - worked with the medical devices group, a part of Microsoft Health NEXT, to develop a machine learning model that can predict clinical measures from physiological signals measured by a wearable device.
+      - Developed a machine learning model that can predict clinical measures from physiological signals measured by a wearable device.
     
     #   - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
     #   - Developed baseline and state-of-the-art neural networks using Tensorflow.
     #   - Built data pipeline for large image dataset.
 
-  - place: IBM Almaden
+  - place: IBM Research
     location: San Jose, California USA
-    lab: IBM Research
+    lab: AI Platform Research Group
     dates: September 2017 -- December 2017
     advisor: Heiko Ludwig
     advisor_website: https://researcher.watson.ibm.com/researcher/view.php?person=us-hludwig
@@ -24,9 +24,9 @@ research:
       - Built data pipeline for large image dataset.
       # - Research was presented in global meeting to IBM executives including CEO and selected for funding.
 
-  - place: Visa
+  - place: Visa Research
     location: Palo Alto, California USA
-    lab: Visa Research
+    lab: Data Analytics Group
     dates: June 2017 -- August 2017
     advisor: Hao Yang
     advisor_website: https://usa.visa.com/about-visa/visa-research/hao-yang.html
