@@ -4,9 +4,9 @@
   ~< for award in items >~
     << award.title >> \hfill << award['year'] >> \\
     ~< if award.descr >~
-      \begin{itemize}
-      \item << award.descr >>
-      \end{itemize}
+    - {\footnotesize {\textit{<< award.descr >>}}} \\
+    %   \begin{itemize}
+    %   \end{itemize}
     ~< endif >~
   ~< endfor >~
 \vspace{-.15in}

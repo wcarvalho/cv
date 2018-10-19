@@ -2,15 +2,23 @@ education:
   - school: University of Michigan--Ann Arbor
     location: Ann Arbor, Michigan USA
     department: School of Engineering
-    degree: Ph.D. in Computer Science \& Engineering
+    degree: Ph.D. in Computer Science
+    # - Cognitive Science Graduate Certificate
+    # - M.S. Statistics
     image: michigan.jpg
-    completion: May 2022
+    completion: Sep 2018 - Present
+    advisor1_name: Satinder Singh
+    advisor1_url: http://web.eecs.umich.edu/~baveja/
+    advisor2_name: Honglak Lee
+    advisor2_url: http://web.eecs.umich.edu/~honglak/
+    advisor3_name: Richard Lewis
+    advisor3_url: http://www-personal.umich.edu/~rickl/
 
   - school: University of Southern California
     location: Los Angeles, California USA
     department: Viterbi School of Engineering
     degree: M.S. in Computer Science
-    completion: May 2017
+    completion: Aug 2015 - May 2017
     image: usc.jpg
     advisor_name: Yan Liu
     advisor_website: http://www-bcf.usc.edu/~liu32/
@@ -20,7 +28,7 @@ education:
     department: College of Arts and Sciences
     degree: B.S. in Physics
     image: stony.png
-    completion: May 2015
+    completion: Aug 2011 - May 2015
     advisor_name: Axel Drees
     advisor_website: http://www.stonybrook.edu/commcms/nuclear-experiment/personal/axeldrees.html
 
@@ -28,4 +36,4 @@ education:
     location: Brooklyn, New York USA
     degree: Diploma in Applied Physics
     image: bths.jpg
-    completion: May 2011
+    completion: May 2007 - May 2011

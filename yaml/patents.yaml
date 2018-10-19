@@ -1,0 +1,8 @@
+patents:
+  - title: Using Gradients to Detect Backdoors in Neural Networks
+    authors: \wilka, Bryant Chen, Benjamin Edwards, Taesung Lee, Ian Molloy, Jialong Zhang
+    year: 2018
+
+  - title: Effective Knowledge Transfer Among Patient Populations via Deep Learning
+    authors: \wilka, Yan Liu, Tanachat Nilanon, Sanjay Purushotham
+    year: 2017

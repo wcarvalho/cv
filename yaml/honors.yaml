@@ -3,6 +3,7 @@ honors:
   - title: 1/200 chosen internationally for Heidelberg Laureate Forum
     highlight: true
     year: 2018
+    # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
   
   - title: GEM Fellowship sponsored by IBM, Adobe
     year: 2017, 2018
@@ -11,6 +12,7 @@ honors:
   - title: University of Michigan Rackham Merit Fellowship 
     highlight: true
     year: 2017
+    # descr: 80 incoming students chosen across all departments.
   
   - title: ICLR Travel Award 
     highlight: true
@@ -24,16 +26,17 @@ honors:
     year: 2015
     highlight: true
   
-  - title: Researcher of the Month
-    note: (1 school-wide per month)
+  - title: Stony Brook University Researcher of the Month
+    # descr: 1 school-wide per month
     url: http://www.stonybrook.edu/happenings/homespotlight/ureca-researcher-of-the-month-wilka-carvalho/
     year: 2014
   
   - title: HHMI Minority Undergraduate Research Fellowship 
     year: 2014
   
-  # - title: Sigma Pi Sigma Physics Honor Society (only 2nd year student inducted) 
-  #   year: 2013
+  - title: $\Sigma \Pi \Sigma$ Physics Honor Society (sponsored by \href{http://insti.physics.sunysb.edu/physics/forms/profilesearch.cgi?lastname=goldhaber}{\color{links}Alfred Goldhaber})
+    year: 2013
+    # descr: Only 2nd-year student inducted
   
   # - title: Scholar of Science, Technology, Engineering and Math 
   #   year: 2012

@@ -3,8 +3,12 @@
 ~< block body >~
 ~< for school in items >~
 
-  {\bf <<school.school>>}, <<school.location>> \\
-  ~< if school.department >~ {\em <<school.department>>}, ~< endif >~ <<school.degree>>, <<school.completion>>
+  {\bf <<school.school>>}, <<school.location>> \hfill <<school.completion>> \\
+  ~< if school.department >~ {\em <<school.department>>}, ~< endif >~ <<school.degree>>
+  ~< if school.advisor1_name >~
+    \\
+    Advisors: \href{<<school.advisor1_url>>}{\color{links}<<school.advisor1_name>>}, \href{<<school.advisor2_url>>}{\color{links}<<school.advisor2_name>>}, \href{<<school.advisor3_url>>}{\color{links}<<school.advisor3_name>>}
+  ~< endif >~
   ~< if school.advisor_name >~
     \\
     Advisor: \href{<<school.advisor_website>>}{\color{links}<<school.advisor_name>>}
