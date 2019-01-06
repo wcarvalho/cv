@@ -4,10 +4,15 @@
     ~< for item in items >~
         {\bf <<item.place>>}, <<item.location>> \\
         {\bf <<item.lab>>}, {\it <<item.dates>> }
-        ~< if item.advisor >~~< if item.advisor_website >~
-            \\ Advisor: \href{<<item.advisor_website>>}{\color{links}<<item.advisor>>}
-        ~< else >~
-            \\ Advisor: <<item.advisor>> 
+        ~< if item.advisor1_name >~
+            \\
+            Advisors: \href{<<item.advisor1_website>>}{\color{links}<<item.advisor1_name>>}, \href{<<item.advisor2_website>>}{\color{links}<<item.advisor2_name>>}, \href{<<item.advisor3_website>>}{\color{links}<<item.advisor3_name>>}
+        ~< endif >~
+        ~< if item.advisor >~
+            ~< if item.advisor_website >~
+                \\ Advisor: \href{<<item.advisor_website>>}{\color{links}<<item.advisor>>}
+            ~< else >~
+                \\ Advisor: <<item.advisor>> 
             ~< endif >~
         ~< endif >~
         ~< if item.project >~ \\ <<item.project>> ~< endif >~

@@ -1,4 +1,18 @@
 research:
+  - place: University of Michigan--Ann Arbor
+    location: Ann Arbor, Michigan USA
+    lab: AI Lab
+    dates: August 2018 -- Present
+    advisor1_name: Satinder Singh
+    advisor1_website: http://web.eecs.umich.edu/~baveja/
+    advisor2_name: Honglak Lee
+    advisor2_website: http://web.eecs.umich.edu/~honglak/
+    advisor3_name: Richard Lewis
+    advisor3_website: http://www-personal.umich.edu/~rickl/
+    project: "Project: ``Learning Category-Structure Without Supervision''"
+    # details:
+    #   - Learning Category-Structure Without Supervision
+
   - place: Microsoft Research
     location: Redmond, Washington USA
     lab: Medical Devices Group
