@@ -1,6 +1,6 @@
 skills:
   - title: Machine Learning Software
-    details: TensorFlow, Theano, Pytorch, Keras
+    details: Pytorch, TensorFlow, Theano, Keras
     # Scikit-learn, numpy
   - title: Neuroscience Software
     details: Neuron

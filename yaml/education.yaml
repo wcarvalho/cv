@@ -7,10 +7,10 @@ education:
     # - M.S. Statistics
     image: michigan.jpg
     completion: Sep 2018 - Present
-    advisor1_name: Satinder Singh
-    advisor1_url: http://web.eecs.umich.edu/~baveja/
-    advisor2_name: Honglak Lee
-    advisor2_url: http://web.eecs.umich.edu/~honglak/
+    advisor1_name: Honglak Lee
+    advisor1_url: http://web.eecs.umich.edu/~honglak/
+    advisor2_name: Satinder Singh
+    advisor2_url: http://web.eecs.umich.edu/~baveja/
     advisor3_name: Richard Lewis
     advisor3_url: http://www-personal.umich.edu/~rickl/
 

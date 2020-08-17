@@ -3,15 +3,17 @@ research:
     location: Ann Arbor, Michigan USA
     lab: AI Lab
     dates: August 2018 -- Present
-    advisor1_name: Satinder Singh
-    advisor1_website: http://web.eecs.umich.edu/~baveja/
-    advisor2_name: Honglak Lee
-    advisor2_website: http://web.eecs.umich.edu/~honglak/
+    advisor1_name: Honglak Lee
+    advisor1_website: http://web.eecs.umich.edu/~honglak/
+    advisor2_name: Satinder Singh
+    advisor2_website: http://web.eecs.umich.edu/~baveja/
     advisor3_name: Richard Lewis
     advisor3_website: http://www-personal.umich.edu/~rickl/
-    project: "Project: ``Learning Category-Structure Without Supervision''"
-    # details:
-    #   - Learning Category-Structure Without Supervision
+    project: "Project: Data-Efficient Reinforcement Learning with Object-Oriented Representations"
+    details:
+      - Developed and implemented novel nonparametric neural network that employs contrastive learning to learn an invariant object recognition function that enables sample-efficient reinforcement learning in complex 3D domains
+      - Implemented reinforcement learning and computer vision baselines
+
 
   - place: Microsoft Research
     location: Redmond, Washington USA
@@ -19,6 +21,7 @@ research:
     dates: June 2018 -- August 2018
     advisor: Sumit Basu
     advisor_website: https://www.microsoft.com/en-us/research/people/sumitb/
+    project: "Project: Predicting clinical measures from physiological signals measured by a wearable device"
     details:
       - Developed a machine learning model that can predict clinical measures from physiological signals measured by a wearable device.
     
@@ -32,11 +35,12 @@ research:
     dates: September 2017 -- December 2017
     advisor: Heiko Ludwig
     advisor_website: https://researcher.watson.ibm.com/researcher/view.php?person=us-hludwig
+    project: "Project: Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering "
     details:
       - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
       - Developed baseline and state-of-the-art neural networks using Tensorflow.
       - Built data pipeline for large image dataset.
-      # - Research was presented in global meeting to IBM executives including CEO and selected for funding.
+      - Research was presented in global meeting to IBM executives including CEO and selected for funding.
 
   - place: Visa Research
     location: Palo Alto, California USA
@@ -44,8 +48,9 @@ research:
     dates: June 2017 -- August 2017
     advisor: Hao Yang
     advisor_website: https://usa.visa.com/about-visa/visa-research/hao-yang.html
+    project: "Project: Learning latent language models for improved machine reading comprehension"
     details:
-      - Formulated a novel neural network for learning a language model.
+    #   - Formulated a novel neural network for learning a language model.
       - Implemented model and baselines for language generation and question answering using Tensorflow and Facebook’s ParlAI NLP software.
       - Performed extensive literature reviews on machine reading comprehension and generative models.
 
@@ -111,6 +116,6 @@ research:
     dates: Summer 2012
     advisor: Shenqyang Shy
     advisor_website: https://www.me.ncu.edu.tw/energy/index_Eng.pdf
-    project: "``Empricial Analysis of Theories from Fluid Dynamics''"
-    details:
-      - Explored boundary layer conditions, and laminar and turbulent flow of fluids through pipes of varying cross-sections.
+    # project: "Project: ``Empricial Analysis of Theories from Fluid Dynamics''"
+    # details:
+      # - Explored boundary layer conditions, and laminar and turbulent flow of fluids through pipes of varying cross-sections.

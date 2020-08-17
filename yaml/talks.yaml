@@ -1,4 +1,13 @@
 talks:
+  - name: Object-Oriented Reinforcement Learning Workshop
+    location: NeurIPS
+    date: December, 2020
+  - name: Cognitive Science Community
+    location: University of Michigan
+    date: October, 2020
+  - name: Stony Brook Society of Physics
+    location: Stony Brook, NY
+    date: April, 2020
   - name: Machine Learning Lunch Seminar
     location: University of Southern California
     date: April, 2017

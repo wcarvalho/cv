@@ -1,11 +1,12 @@
 # (tag, section type, title)
 order:
-  - [research_interests, Research Interests]
+  # - [research_interests, Research Interests]
   # - [research_topics, Topics]
   - [education, Education]
   - [honors, Honors \\ \& Awards]
-  - [preprints, Preprints]
+  # - [preprints, In Preparation]
   - [conference_publications, Conference Publications]
+  - [workshop_publications, Workshop Publications]
   - [patents, Patents]
   - [talks, Invited Talks]
   - [symposium, Symposium Presentations]

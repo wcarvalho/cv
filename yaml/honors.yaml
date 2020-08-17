@@ -5,7 +5,7 @@ honors:
     year: 2018
     # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
   
-  - title: GEM Fellowship sponsored by IBM, Adobe
+  - title: GEM National Fellowship sponsored by IBM, Adobe
     year: 2017, 2018
     highlight: true
   
@@ -14,9 +14,9 @@ honors:
     year: 2017
     # descr: 80 incoming students chosen across all departments.
   
-  - title: ICLR Travel Award 
+  - title: ICLR, Neurips Travel Award
     highlight: true
-    year: 2017
+    year: 2017, 2019
   
   - title: NSF Graduate Research Fellowship (Neuroscience) 
     year: 2015
@@ -26,7 +26,7 @@ honors:
     year: 2015
     highlight: true
   
-  - title: Stony Brook University Researcher of the Month
+  - title: Researcher of the Month (1 monthly at Stony Brook University)
     # descr: 1 school-wide per month
     url: http://www.stonybrook.edu/happenings/homespotlight/ureca-researcher-of-the-month-wilka-carvalho/
     year: 2014

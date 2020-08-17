@@ -1,4 +1,8 @@
 patents:
+  - title: Detecting poisoning attacks on neural networks by activation clustering
+    authors: Bryant Chen, \wilka, Heiko Ludig, Ian Molloy, Jialong Zhang, Benjamin Edwards
+    year: 2020
+
   - title: Using Gradients to Detect Backdoors in Neural Networks
     authors: \wilka, Bryant Chen, Benjamin Edwards, Taesung Lee, Ian Molloy, Jialong Zhang
     year: 2018
