@@ -1,41 +1,25 @@
-# conference_publications:
-#   - title: Efficiently Learning to Perform Household Task with Object-oriented Exploration
-#     authors: \wilka, Kimin Lee, Anthony Liang, Ryan Krueger, Rick Lewis, Satinder Singh, Honglak Lee
-#     venue: Neural Information Processing Systems Black In AI Workshop (Neurips BAI)
-#     year: 2019
-#     oral: true
-
-#   - title: Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering
-#     authors: Bryant Chen$^*$, \wilka$^*$, Benjamin Edwards, Taesung Lee, Ian Molloy, Heiko Ludwig, Jaehoon Safavi 
-#     venue: Artificial Intelligence Safety Workshop at Association for the Advancement of Artificial Intelligence (AAAI AASW)
-#     year: 2018
-#     best_paper: true
-
-#   - title: Variational Recurrent Adversarial Domain Adaptation
-#     authors: Sanjay Purushotham$^*$, \wilka$^*$, Tanachat Nilanon, Yan Liu
-#     venue: International Conference on Learning Representations (ICLR)
-#     year: 2017
-
-#   - title: Variational Adversarial Deep Domain Adaptation for Health Care Time Series Analysis
-#     authors: Sanjay Purushotham$^*$, \wilka$^*$, Yan Liu
-#     venue: Neural Information Processing Systems Workshop on Machine Learning for Healthcare (Neurips ML4HC)
-#     year: 2016 
-#     spotlight: true
-
-#   - title: Modeling a Detection of internally reflected Cherenkov light (DIRC) Particle Detector for High-Multiplicity Collisions
-#     authors: \wilka
-#     venue: State University of New York Undergraduate Research Conference (SURC)
-#     year: 2015
-
-
 conference_publications:
+
+  - title: "Successor Feature Landmarks for Long-Horizon Goal-Conditioned Reinforcement Learning"
+    authors: Lajanugen Logeswaran, \wilka, Honglak Lee
+    authors: Chris Hoang, Sungryull Sohn, Jongwook Choi, \wilka, Honglak Lee
+    venue: "NeurIPS"
+    year: 2021
+
+
+  - title: "Reinforcement Learning for Sparse-Reward Object-Interaction Tasks in First-person Simulated 3D Environments"
+    authors: \wilka, Anthony Liang, Kimin Lee, Sungryull Sohn, Honglak Lee, Richard L. Lewis, Satinder Singh
+    venue: IJCAI
+    year: 2021
+    # highlight: Invited Talk at NeurIPS
+
 
   - title: Variational Recurrent Adversarial Domain Adaptation
     authors: Sanjay Purushotham$^*$, \wilka$^*$, Tanachat Nilanon, Yan Liu
-    venue: International Conference on Learning Representations (ICLR)
+    venue: ICLR
     year: 2017
 
   - title: Modeling a Detection of internally reflected Cherenkov light (DIRC) Particle Detector for High-Multiplicity Collisions
     authors: \wilka
-    venue: State University of New York Undergraduate Research Conference (SURC)
+    venue: SURC
     year: 2015

@@ -1,8 +1,9 @@
 preprints:
-  - title: Continually Learning to Perform New Tasks with New Objects through Visual Instruction
-    authors: Wilka Carvalho, Kimin Lee, Anthony Liang, Ryan Krueger, Richard L. Lewis, Satinder Singh, Honglak Lee
-    # venue: 5th International Conference on Learning Representations (ICLR)
-#     year: 2018
-  # - title: Generalizing Policies with Context-Conditioned MDPs
-  #   authors: Kimin Lee, Wilka Carvalho, Honglak Lee, Jinwoo Shin
+  - title: "Task-driven Discovery of Perceptual Schemas for Generalization in Reinforcement Learning"
+    authors: \wilka, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
+    year: 2021
+
+  - title: "Learning Compositional Tasks from Language Instructions"
+    authors: Lajanugen Logeswaran, \wilka, Honglak Lee
+    year: 2021
 

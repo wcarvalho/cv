@@ -1,0 +1,33 @@
+workshop_publications:
+  - title: "Learning to Represent State with Perceptual Schemata"
+    authors: \wilka, Murray Shanahan
+    venue: "ICML \\{Unsupervised RL, Real Life RL\\} Workshops"
+    year: 2021
+
+  - title: "Reinforcement Learning for Sparse-Reward Object-Interaction Tasks in First-person Simulated 3D Environments"
+    authors: \wilka, Anthony Liang, Kimin Lee, Sungryull Sohn, Honglak Lee, Richard L. Lewis, Satinder Singh
+    venue: "\\{ICML Object-Oriented Learning, NeurIPS DeepRL\\} Workshops"
+    year: 2020
+
+  - title: "Successor Landmarks for Efficient Exploration and Long-Horizon Navigation"
+    authors: Chris Hoang, Sungryull Sohn, Jongwook Choi, \wilka, Honglak Lee
+    venue: NeurIPS DeepRL Workshop
+    year: 2020
+
+  - title: Efficiently Learning to Perform Household Task with Object-oriented Exploration
+    authors: \wilka, Kimin Lee, Anthony Liang, Ryan Krueger, Richard L. Lewis, Satinder Singh, Honglak Lee
+    venue: NeurIPS BAI
+    year: 2019
+    oral: true
+
+  - title: Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering
+    authors: Bryant Chen$^*$, \wilka$^*$, Benjamin Edwards, Taesung Lee, Ian Molloy, Heiko Ludwig
+    venue: AAAI Artificial Intelligence Safety Workshop
+    year: 2018
+    best_paper: true
+
+  - title: Variational Adversarial Deep Domain Adaptation for Health Care Time Series Analysis
+    authors: Sanjay Purushotham$^*$, \wilka$^*$, Yan Liu
+    venue: NeurIPS Machine Learning for Healthcare Workshop
+    year: 2016 
+    spotlight: true

@@ -1,4 +1,7 @@
 service:
+  - name: Reviewer
+    location: NeurIPS Deep Reinforcement Learning Workshop
+    date: 2020
   - name: Student Volunteer
     location: ICLR
     date: 2017

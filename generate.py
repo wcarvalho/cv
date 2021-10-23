@@ -368,8 +368,11 @@ def main():
     yaml_data = {}
     for yaml_file in args.yamls:
         print(yaml_file)
+
         with open(yaml_file) as f:
-            yaml_data.update(yaml.load(f))
+            data = yaml.load(f)
+            if data:
+              yaml_data.update(data)
 
     format_data = {}
 

@@ -9,11 +9,22 @@ research:
     advisor2_website: http://web.eecs.umich.edu/~baveja/
     advisor3_name: Richard Lewis
     advisor3_website: http://www-personal.umich.edu/~rickl/
-    project: "Project: Data-Efficient Reinforcement Learning with Object-Oriented Representations"
+    # project: Studying how an agent can learn to utilize a state-representation composed of flexible partitions of its sensory stream that facilitates generalizing its behavioral policy to novel situations.
     details:
-      - Developed and implemented novel nonparametric neural network that employs contrastive learning to learn an invariant object recognition function that enables sample-efficient reinforcement learning in complex 3D domains
-      - Implemented reinforcement learning and computer vision baselines
+      - Studying how deep reinforcement learning agents can discover representations and temporally-extended behaviors that enable generalization
+      # - Studying how agent can learn to utilize a state-representation composed of flexible partitions of its sensory stream that facilitates generalizing its behavioral policy to novel situations.
+    #   - Implemented reinforcement learning and computer vision baselines
 
+  - place: DeepMind
+    location: London, UK
+    lab: Cognition Team
+    dates: March 2021 -- July 2021
+    advisor: Murray Shanahan
+    advisor_website: https://www.doc.ic.ac.uk/~mpsha/
+    # project: "Studying agent-state representations for generalization of deep reinforcement learning agents in 3D environments"
+    details:
+      - "Studying agent-state representations for generalization of deep reinforcement learning agents in 3D environments"
+    
 
   - place: Microsoft Research
     location: Redmond, Washington USA
@@ -21,7 +32,8 @@ research:
     dates: June 2018 -- August 2018
     advisor: Sumit Basu
     advisor_website: https://www.microsoft.com/en-us/research/people/sumitb/
-    project: "Project: Predicting clinical measures from physiological signals measured by a wearable device"
+    # project: Developed a machine learning model that can predict clinical measures from physiological signals measured by a wearable device.
+    # project: "Project: Predicting clinical measures from physiological signals measured by a wearable device"
     details:
       - Developed a machine learning model that can predict clinical measures from physiological signals measured by a wearable device.
     
@@ -35,12 +47,13 @@ research:
     dates: September 2017 -- December 2017
     advisor: Heiko Ludwig
     advisor_website: https://researcher.watson.ibm.com/researcher/view.php?person=us-hludwig
-    project: "Project: Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering "
+    # project: "Project: Detecting Backdoor Attacks on Deep Neural Networks by Activation Clustering "
     details:
-      - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. Designed and implemented environment for testing algorithm.
-      - Developed baseline and state-of-the-art neural networks using Tensorflow.
-      - Built data pipeline for large image dataset.
-      - Research was presented in global meeting to IBM executives including CEO and selected for funding.
+      - Contributed to novel research algorithm by suggesting subspace projection technique that increased our performance from 15\% to 95\% accuracy. 
+      # - Designed and implemented environment for testing algorithm.
+      # - Developed baseline and state-of-the-art neural networks using Tensorflow.
+      # - Built data pipeline for large image dataset.
+      - Research led to workshop publication and was presented in global meeting to IBM executives including CEO and selected for funding.
 
   - place: Visa Research
     location: Palo Alto, California USA
@@ -48,11 +61,12 @@ research:
     dates: June 2017 -- August 2017
     advisor: Hao Yang
     advisor_website: https://usa.visa.com/about-visa/visa-research/hao-yang.html
-    project: "Project: Learning latent language models for improved machine reading comprehension"
+    # project: "Project: Learning latent language models for improved machine reading comprehension"
     details:
     #   - Formulated a novel neural network for learning a language model.
-      - Implemented model and baselines for language generation and question answering using Tensorflow and Facebook’s ParlAI NLP software.
-      - Performed extensive literature reviews on machine reading comprehension and generative models.
+      - Implemented model and baselines for language generation and question answering.
+       # using Tensorflow and Facebook’s ParlAI NLP software.
+      # - Performed extensive literature reviews on machine reading comprehension and generative models.
 
   - place: University of Southern California
     location: Los Angeles, California USA
@@ -63,7 +77,8 @@ research:
     project: "Samsung and NSF funded project: ``Variational Adversarial Deep Domain Adaptation for Health Care Time Series Analysis''"
     details:
       - Implemented novel neural network that employed variational inference and adversarial training for transfer learning of multivariate time-series.
-      - Proposed analyses used in publications to empirically verify that our model (a) performed domain adaptation by creating domain-invariant representations and (b) transferred temporal dependencies across domains. Research led to 2 publications and a patent.
+      # - Proposed analyses used in publications to empirically verify that our model (a) performed domain adaptation by creating domain-invariant representations and (b) transferred temporal dependencies across domains. Research led to 2 publications and a patent.
+      - Research led to a publication and a patent.
       - Communicated research to general public through research feature by the USC Graduate School and to technical audience at ICLR poster presentation.
 
   - place: Stony Brook Univeristy
@@ -74,7 +89,7 @@ research:
     advisor_website: http://www.stonybrook.edu/commcms/nuclear-experiment/personal/axeldrees.html
     project: "DOE funded project: ``Modeling a Detection of internally reflected Cherenkov light Particle Detector for High-Multiplicity Collisions''"
     details:
-      - Built and maintained a simulator in C++ for the heavy ion particle detector at the Brookhaven National Laboratory.
+      # - Built and maintained a simulator in C++ for the heavy ion particle detector at the Brookhaven National Laboratory.
       - Contributed methods from multivariate calculus and linear algebra to particle detection algorithm. Accuracy improved from 60\% to 80\%.
       - Designed and implemented a statistical analysis pipeline in C++ for measuring efficacy of particle detection algorithm.
 
@@ -97,7 +112,7 @@ research:
     project: "HHMI funded project: ``Modeling the Cognitive Process of Attributing Traits to Others''"
     details:
       - Formulated a trait learning behavioral experiment to study human inference.
-      - Built online platform to administer psychology experiments using Javascript, PHP, and HTML.
+      # - Built online platform to administer psychology experiments using Javascript, PHP, and HTML.
     
   - place: University of Minnesota
     location: Minneapolis, Minnesota USA
@@ -108,7 +123,7 @@ research:
     project: "NIH funded project: ``Modeling Deep Brain Stimulation of Globus Palidus Internus''"
     details:
       - Implemented python script to build a biologically feasible computational model of neural networks
-      - Created template for using python to simulate deep brain stimulation with “Neuron” software
+      # - Created template for using python to simulate deep brain stimulation with “Neuron” software
     
   - place: National Central University
     location: Jhongli City, Taiwan

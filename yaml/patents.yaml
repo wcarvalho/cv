@@ -1,4 +1,8 @@
 patents:
+  - title: Task-driven Discovery of Perceptual Schemas for Generalization in Reinforcement Learning
+    authors: \wilka
+    year: "Under Review"
+
   - title: Detecting poisoning attacks on neural networks by activation clustering
     authors: Bryant Chen, \wilka, Heiko Ludig, Ian Molloy, Jialong Zhang, Benjamin Edwards
     year: 2020

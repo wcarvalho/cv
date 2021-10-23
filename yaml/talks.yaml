@@ -1,13 +1,29 @@
 talks:
-  - name: Object-Oriented Reinforcement Learning Workshop
-    location: NeurIPS
+
+  - name: "{\\bf {\\color{red}Invited Speaker}}"
+    location: NeurIPS Deep RL Workshop
+    date: December, 2021
+
+  # - name: Computational Cognitive Neuroscience Lab
+  #   location: University of California---Berkeley
+  #   date: October, 2021
+
+  - name: "{\\bf {\\color{red}Invited Speaker}}"
+    location: NeurIPS Object Representations for Learning Workshop
     date: December, 2020
+
+  - name: Cognitive Tools Lab
+    location: University of California---San Diego
+    date: November, 2020
+
   - name: Cognitive Science Community
     location: University of Michigan
-    date: October, 2020
+    date: November, 2020
+
   - name: Stony Brook Society of Physics
     location: Stony Brook, NY
     date: April, 2020
+
   - name: Machine Learning Lunch Seminar
     location: University of Southern California
     date: April, 2017

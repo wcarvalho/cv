@@ -1,15 +1,15 @@
 # (tag, section type, title)
 order:
-  # - [research_interests, Research Interests]
+  - [research_interests, Research Interests]
   # - [research_topics, Topics]
   - [education, Education]
   - [honors, Honors \\ \& Awards]
-  # - [preprints, In Preparation]
+  - [preprints, In Preparation]
   - [conference_publications, Conference Publications]
   - [workshop_publications, Workshop Publications]
-  - [patents, Patents]
   - [talks, Invited Talks]
-  - [symposium, Symposium Presentations]
+  - [patents, Patents]
+  # - [symposium, Symposium Presentations]
   - [research, Research Experience]
   - [teaching, Teaching Experience]
   - [service, Service]
@@ -25,26 +25,7 @@ order:
   # - [NEWPAGE, NEWPAGE]
 
 research_interests:
-  # - I like to hypothesize about what ``basic'' models and algorithms the brain may employ to break down and solve the computational problems it faces. For inspiration, I look towards machine learning. For example, generative models offer solutions for how brains may learn patterns that describe data production, and reinforcement learning offers solutions for how an agent can choose actions that maximize its satisfaction in the world. 
-  # I am also interested in social equity and justice, so I have more high-level interests in exploring why social stereotyping seems to {\it naturally emerge} as brains learn to create and generalize category representations for objects.
-  - I am interested in exploring what basic models and algorithms the brain may employ to solve the complex computational problems it faces. A major driving force for much of my research is a mechanistic and algorithmic understanding of why stereotyping-like behavior seems to emerge as we discover, structure, and learn to apply category representations. My research beliefs rest on the presumption that distributed, sub-symbolic representations (such as those learned by neural networks) play a key role in the flexibility and versatility of the brain’s learning capabilities. As such, I plan to investigate stereotyping as a neural network-based inference and representation-learning problem.
-   # A canonical example of a sub-problem that enables more complex solutions is recognizing objects in scenes. Afterwards, we can read about manh
-   # For example, how do we learn to recognize objects, how do we estimate the value of our actions, how do we reason about cause-and-effect? 
-
-
-research_topics:
-
-  - category: Machine Learning
-    examples: Implicit Inference, Bayesian Nonparametric Methods, Generative Models
-
-  - category: Reinforcement Learning
-    examples: Value Estimation, Credit Assignment, Intrinsic Motivation
-  
-  - category: Computational Cognitive Science
-    examples: Stereotyping, Causality, Compositionality
-
-  - category: Theoretical Neuroscience
-    examples: Neural Networks, Sub-symbolic \& Distributed Representations
+  - My long-term goal is to develop cognitive theories of learning that help us understand how humans discover, reason with, and exploit rich structured representations of their environments to enable rapid adaptation to a broad range of ecological situations. Towards this end, I am currently studying how human-inspired inductive biases can enable the discovery of abstract primitives which bring us closer to human-level artificial intelligence.
 
 
 
