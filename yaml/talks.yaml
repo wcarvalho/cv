@@ -1,11 +1,11 @@
 talks:
-  - name: Intelligent Roboto Lab
+  - name: Intelligent Robot Lab
     location: Brown
-    date: March, 2021
+    date: March, 2022
 
   - name: Computational Cognitive Neuroscience Lab
     location: Harvard
-    date: March, 2021
+    date: March, 2022
 
   - name: "{\\bf {\\color{red}Invited Speaker}}. Deep RL Workshop"
     location: NeurIPS
