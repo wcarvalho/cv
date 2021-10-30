@@ -1,15 +1,22 @@
 talks:
+  - name: Intelligent Roboto Lab
+    location: Brown
+    date: March, 2021
 
-  - name: "{\\bf {\\color{red}Invited Speaker}}"
-    location: NeurIPS Deep RL Workshop
+  - name: Computational Cognitive Neuroscience Lab
+    location: Harvard
+    date: March, 2021
+
+  - name: "{\\bf {\\color{red}Invited Speaker}}. Deep RL Workshop"
+    location: NeurIPS
     date: December, 2021
 
   # - name: Computational Cognitive Neuroscience Lab
   #   location: University of California---Berkeley
   #   date: October, 2021
 
-  - name: "{\\bf {\\color{red}Invited Speaker}}"
-    location: NeurIPS Object Representations for Learning Workshop
+  - name: "{\\bf {\\color{red}Invited Speaker}}. Object Representations for Learning Workshop"
+    location: NeurIPS
     date: December, 2020
 
   - name: Cognitive Tools Lab

@@ -1,4 +1,10 @@
 workshop_publications:
+  - title: "Learning Compositional Tasks from Language Instructions"
+    authors: Lajanugen Logeswaran, \wilka, Honglak Lee
+    venue: "NeurIPS Deep RL Workshop"
+    year: 2021
+
+
   - title: "Learning to Represent State with Perceptual Schemata"
     authors: \wilka, Murray Shanahan
     venue: "ICML \\{Unsupervised RL, Real Life RL\\} Workshops"
