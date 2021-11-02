@@ -1,5 +1,5 @@
 # Makefile to build PDF and Markdown cv from YAML.
-#
+
 # Wilka Carvalho <http://wcarvalho.github.io> and
 # Brandon Amos <http://bamos.github.io> and
 # Ellis Michael <http://ellismichael.com>
@@ -29,17 +29,14 @@ all: $(PDF) $(MD)
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-# public: $(BUILD_DIR) $(TEMPLATES) $(YAML_FILES) generate.py
-# 	ipython generate.py -- content.yaml --format cv_academic.yaml
 
 $(TEX) $(MD): $(TEMPLATES) $(YAML_FILES) generate.py
 	ipython generate.py -- $(YAML_FILES) cv_academic.yaml
-	# ipython generate.py -- content.yaml --format cv_industry.yaml
 
-$(PDF): $(TEX) publications/*.bib
+$(PDF): $(TEX)
 	# TODO: Hack for biber on OSX.
 	# rm -rf /var/folders/zt/2qb2nh5x04d3x7qxgpgvlkk40000gn/T/par-77696c6b61/cache-ec7adafccc6b3891989ad6eb09778d44c1fecb97
-
+	cp templates/latex/res.cls $(BUILD_DIR)
 	cd $(BUILD_DIR) && latexmk -pdf cv
 
 

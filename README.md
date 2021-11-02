@@ -1,1 +1,2 @@
-- Main file: `cv_academic.yaml`
+- edit: `cv_academic.yaml`
+- latex: `templates/latex/cv.tex`

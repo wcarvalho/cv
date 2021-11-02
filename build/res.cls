@@ -179,9 +179,6 @@
 %
 % write docs to tell people how to use this
 
-% color
-\RequirePackage[table]{xcolor}
-
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{res}[2000/05/19 v1.4b Resume class]
 
@@ -203,7 +200,7 @@
 \ExecuteOptions{overlapped,centered}
 \ProcessOptions\relax
 
-% \nofiles	     % resume's don't need .aux files
+\nofiles	     % resume's don't need .aux files
 
 
 \newtoks\tabular@text		    % holds the current list being processed
@@ -774,7 +771,6 @@
 %    body
 % with everything in the left of its column
 
-
 \@secpenalty = -500
 \topmargin 0pt
 \headheight 0pt
@@ -805,17 +801,4 @@
 
 \let\section\@@section
 
-% Taken From MODERNCV for support
-\definecolor{color1}{rgb}{0,0,0}% primary scheme color
-\renewcommand*{\labelitemi}          {\strut\textcolor{color1}{\large\rmfamily\textbullet}}% the \rmfamily is required to force Latin Modern fonts when using sans serif, as OMS/lmss/m/n is not defined and gets substituted by OMS/cmsy/m/n
 
-% other symbols
-\newcommand*{\listitemsymbol}      {\labelitemi~}
-
-% makes a resume line with a list item
-% usage: \cvlistitem[label]{item}
-\newcommand*{\cvlistitem}[2][\listitemsymbol]{}
-
-% makes a resume line with 2 list items
-% usage: \cvlistdoubleitem[label]{item1}{item2}
-\newcommand*{\cvlistdoubleitem}[3][\listitemsymbol]{}
