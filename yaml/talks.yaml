@@ -7,7 +7,7 @@ talks:
     location: Harvard
     date: March, 2022
 
-  - name: "{\\bf {\\color{red}Invited Speaker}}. Deep RL Workshop"
+  - name: "Deep RL Workshop ({\\bf {\\color{red}Invited Speaker}})"
     location: NeurIPS
     date: December, 2021
 
@@ -15,7 +15,7 @@ talks:
   #   location: University of California---Berkeley
   #   date: October, 2021
 
-  - name: "{\\bf {\\color{red}Invited Speaker}}. Object Representations for Learning Workshop"
+  - name: "Object Representations for Learning Workshop ({\\bf {\\color{red}Invited Speaker}})"
     location: NeurIPS
     date: December, 2020
 
