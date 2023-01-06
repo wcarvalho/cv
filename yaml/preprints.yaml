@@ -1,5 +1,10 @@
 preprints:
-  - title: "Task-driven Discovery of Perceptual Schemas for Generalization in Reinforcement Learning"
+  - title: "Deep Option Keyboard: Combining Skills in Deep Reinforcement Learning"
+    authors: \wilka, Andre Saraiva, Angelos Filos, Loic Matthew, Richard L. Lewis, Honglak Lee, Satinder Singh, Daniel Zoran, Danilo Rezende
+
+  - title: "Composing Task Knowledge with Modular Successor Feature Approximators"
+    authors: \wilka, Angelos Filos, Richard L. Lewis, Honglak Lee, Satinder Singh
+
+  - title: "Feature-Attending Recurrent Modules Facilitate Generalization Across Object-Centric Tasks"
     authors: \wilka, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
-    year: 2021
 

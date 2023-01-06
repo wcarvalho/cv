@@ -31,7 +31,7 @@ $(BUILD_DIR):
 
 
 $(TEX) $(MD): $(TEMPLATES) $(YAML_FILES) generate.py
-	ipython generate.py -- $(YAML_FILES) cv_academic.yaml
+	ipython generate.py -- $(YAML_FILES) cv_academic.yaml --latex
 
 $(PDF): $(TEX)
 	# TODO: Hack for biber on OSX.

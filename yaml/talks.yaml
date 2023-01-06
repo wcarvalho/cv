@@ -1,21 +1,26 @@
 talks:
-  - name: Intelligent Robot Lab
+  - name: "Intelligent Robot Lab ({\\bf {\\color{red}Invited}})"
     location: Brown
-    date: March, 2022
+    date: February, 2022
 
   - name: Computational Cognitive Neuroscience Lab
     location: Harvard
-    date: March, 2022
+    date: February, 2022
 
-  - name: "Deep RL Workshop ({\\bf {\\color{red}Invited Speaker}})"
+  - name: "Computational Cognitive Neuroscience Lab  ({\\bf {\\color{red}Invited}})"
+    location: University of California---Berkeley
+    date: January, 2022
+
+  - name: "Deep Learning Community of Practice ({\\bf {\\color{red}Invited}})"
+    location: Intel
+    date: January, 2022
+
+  - name: "Deep RL Workshop ({\\bf {\\color{red}Contributed Opinion}})"
     location: NeurIPS
     date: December, 2021
 
-  # - name: Computational Cognitive Neuroscience Lab
-  #   location: University of California---Berkeley
-  #   date: October, 2021
 
-  - name: "Object Representations for Learning Workshop ({\\bf {\\color{red}Invited Speaker}})"
+  - name: "Object Representations for Learning Workshop ({\\bf {\\color{red}Invited}})"
     location: NeurIPS
     date: December, 2020
 

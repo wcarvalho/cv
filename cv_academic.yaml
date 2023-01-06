@@ -2,6 +2,7 @@
 order:
   - [research_interests, Research Interests]
   # - [research_topics, Topics]
+  - [employment, Employment]
   - [education, Education]
   - [honors, Honors \\ \& Awards]
   - [preprints, In Preparation]
@@ -25,8 +26,7 @@ order:
   # - [NEWPAGE, NEWPAGE]
 
 research_interests:
-  - My long-term goal is to develop cognitive theories of learning that help us understand how humans discover, reason with, and exploit rich structured representations of their environments to enable rapid adaptation to a broad range of ecological situations. Towards this end, I am currently studying how human-inspired inductive biases can enable the discovery of abstract primitives which bring us closer to human-level artificial intelligence.
-
+  - My long-term goal is to develop theories for human learning and generalization. In particular, I'm interested in how we discover and exploit richly structured representations to enable sophisticated behavior and rapid adaptation. Currently, I'm interested in leveraging successor features to provide a unified framework for how brains learn, combine and transfer predictive knowledge and behavior.
 
 
 interests:

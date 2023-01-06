@@ -1,5 +1,11 @@
 honors:
   
+  - title: University of Michigan ``The Glass is Half-Full Award''
+    # highlight: true
+    year: 2019
+    # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
+
+
   - title: 1/200 chosen internationally for \href{https://www.heidelberg-laureate-forum.org/}{\color{links}Heidelberg Laureate Forum}
     highlight: true
     year: 2018

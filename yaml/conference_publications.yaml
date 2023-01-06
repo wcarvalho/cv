@@ -1,5 +1,10 @@
 conference_publications:
 
+  - title: "Learning Compositional Tasks from Language Instructions"
+    authors: Lajanugen Logeswaran, \wilka, Honglak Lee
+    venue: "AAAI"
+    year: 2023
+
   - title: "Successor Feature Landmarks for Long-Horizon Goal-Conditioned Reinforcement Learning"
     authors: Lajanugen Logeswaran, \wilka, Honglak Lee
     authors: Chris Hoang, Sungryull Sohn, Jongwook Choi, \wilka, Honglak Lee
@@ -15,7 +20,7 @@ conference_publications:
 
 
   - title: Variational Recurrent Adversarial Domain Adaptation
-    authors: Sanjay Purushotham$^*$, \wilka$^*$, Tanachat Nilanon, Yan Liu
+    authors: \wilka$^*$, Sanjay Purushotham$^*$, Tanachat Nilanon, Yan Liu
     venue: ICLR
     year: 2017
 

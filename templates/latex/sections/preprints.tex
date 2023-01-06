@@ -6,7 +6,9 @@
     ~< if article.venue >~
       <<article.venue>>.
     ~< endif >~
-    <<article.year>>
+    ~< if article.year >~
+      <<article.year>>
+    ~< endif >~
     ~< if article.spotlight >~
       {\bf {\color{red}(Spotlight)}}
     ~< endif >~
