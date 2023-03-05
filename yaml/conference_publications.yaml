@@ -1,5 +1,11 @@
 conference_publications:
 
+
+  - title: "Composing Task Knowledge with Modular Successor Feature Approximators"
+    authors: \wilka, Angelos Filos, Richard L. Lewis, Honglak Lee, Satinder Singh
+    venue: "ICLR"
+    year: 2023
+
   - title: "Learning Compositional Tasks from Language Instructions"
     authors: Lajanugen Logeswaran, \wilka, Honglak Lee
     venue: "AAAI"
@@ -24,7 +30,3 @@ conference_publications:
     venue: ICLR
     year: 2017
 
-  - title: Modeling a Detection of internally reflected Cherenkov light (DIRC) Particle Detector for High-Multiplicity Collisions
-    authors: \wilka
-    venue: SURC
-    year: 2015

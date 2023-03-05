@@ -45,8 +45,8 @@ viewpdf: $(PDF)
 
 stage: $(PDF) $(MD)
 	cp $(PDF) $(WEBSITE_PDF)
-	cp $(MD) $(WEBSITE_MD)
-	date +%Y-%m-%d > $(WEBSITE_DATE)
+# 	cp $(MD) $(WEBSITE_MD)
+# 	date +%Y-%m-%d > $(WEBSITE_DATE)
 
 jekyll: stage
 	cd $(WEBSITE_DIR) && bundle exec jekyll server
