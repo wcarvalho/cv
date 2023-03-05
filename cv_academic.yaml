@@ -5,7 +5,7 @@ order:
   - [employment, Employment]
   - [education, Education]
   - [honors, Honors \\ \& Awards]
-  - [preprints, In Preparation]
+  - [preprints, Preprints]
   - [conference_publications, Conference Publications]
   - [workshop_publications, Workshop Publications]
   - [talks, Talks]

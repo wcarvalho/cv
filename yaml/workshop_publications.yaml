@@ -37,3 +37,8 @@ workshop_publications:
     venue: NeurIPS Machine Learning for Healthcare Workshop
     year: 2016 
     spotlight: true
+
+  - title: Modeling a Detection of internally reflected Cherenkov light (DIRC) Particle Detector for High-Multiplicity Collisions
+    authors: \wilka
+    venue: SURC
+    year: 2015

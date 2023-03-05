@@ -1,4 +1,8 @@
 talks:
+  - name: "Computational Neuroscience Group"
+    location: UCL
+    date: October, 2022
+
   - name: "Intelligent Robot Lab ({\\bf {\\color{red}Invited}})"
     location: Brown
     date: February, 2022

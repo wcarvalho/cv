@@ -1,0 +1,21 @@
+employment:
+  - place: DeepMind
+    location: London
+    job: Research Scientist Intern
+    dates: Sept 2022 -- Present
+
+  - place: DeepMind
+    location: London
+    job: Research Scientist Intern
+    dates: Mar 2021 -- July 2021
+
+  - place: Microsoft Research
+    location: Redmond, Washington
+    job: Research Scientist Intern
+    dates: June 2018 -- Aug 2018
+
+
+  - place: IBM Research
+    location: San Jose, California
+    job: Research Scientist Intern
+    dates: Sept 2017 -- Dec 2017
