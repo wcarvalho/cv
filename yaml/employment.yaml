@@ -1,27 +1,27 @@
 employment:
 
   - place: Harvard
-    location: Boston
+    location: Boston, MA
     job: Research Fellow
     dates: Sept 2023 -- Present
 
   - place: DeepMind
-    location: London
+    location: London, UK
     job: Research Scientist Intern
-    dates: Sept 2022 -- Present
+    dates: Sept 2022 -- May 2023
 
   - place: DeepMind
-    location: London
+    location: London, UK
     job: Research Scientist Intern
     dates: Mar 2021 -- July 2021
 
   - place: Microsoft Research
-    location: Redmond, Washington
+    location: Redmond, WA
     job: Research Scientist Intern
     dates: June 2018 -- Aug 2018
 
 
   - place: IBM Research
-    location: San Jose, California
+    location: San Jose, CA
     job: Research Scientist Intern
     dates: Sept 2017 -- Dec 2017

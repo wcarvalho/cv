@@ -15,6 +15,18 @@ research:
       # - Studying how agent can learn to utilize a state-representation composed of flexible partitions of its sensory stream that facilitates generalizing its behavioral policy to novel situations.
     #   - Implemented reinforcement learning and computer vision baselines
 
+
+  - place: DeepMind
+    location: London, UK
+    lab: Cognition Team
+    dates: September 2022 -- May 2023
+    advisor: Daniel Zoran
+    # advisor_website: https://www.doc.ic.ac.uk/~mpsha/
+    # project: "Studying agent-state representations for generalization of deep reinforcement learning agents in 3D environments"
+    details:
+      - "Studying transfer in 3D environments with successor features"
+    
+
   - place: DeepMind
     location: London, UK
     lab: Cognition Team

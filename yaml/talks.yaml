@@ -1,4 +1,16 @@
 talks:
+  - name: "Computational Cognitive Science Group ({\\bf {\\color{red}Invited}})"
+    location: Princeton
+    date: Fall, 2023
+
+  - name: "RL at Harvard ({\\bf {\\color{red}Invited}})"
+    location: Harvard
+    date: August, 2023
+
+  - name: "Kempner Institute"
+    location: Harvard
+    date: March, 2023
+
   - name: "Computational Neuroscience Group"
     location: UCL
     date: October, 2022
