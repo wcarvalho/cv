@@ -370,7 +370,7 @@ def main():
         print(yaml_file)
 
         with open(yaml_file) as f:
-            data = yaml.load(f)
+            data = yaml.load(f, Loader=yaml.SafeLoader)
             if data:
               yaml_data.update(data)
 
