@@ -1,30 +1,39 @@
 honors:
 
-  - title: Kempner Institute Neuro-AI Fellowship
+  - title: GitLab Foundation AI for Economic Opportunity Award Finalist (7\% selected)
+    # highlight: true
+    year: 2025
+    # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
+
+  - title: Kempner Institute Fundamentals of Intelligence Fellowship
     # highlight: true
     year: 2023
     # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
 
-  - title: ICML, Neurips Top Reviewer
+  - title: ICML, NeurIPS Top Reviewer
     # highlight: true
     year: 2022, 2023
   
-  - title: University of Michigan ``The Glass is Half-Full Award''
+  - title: University of Michigan ``The Glass is Half-Full'' Award
     # highlight: true
     year: 2019
     # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
 
+  - title: Hertz Fellowship Finalist (10\% selected)
+    year: 2019
+    highlight: true
 
   - title: 1/200 chosen internationally for \href{https://www.heidelberg-laureate-forum.org/}{\color{links}Heidelberg Laureate Forum}
     highlight: true
     year: 2018
     # descr: Fully-funded week-long conference to meet and learn from Turing Award, Fields Medal, and Abel Prize winners.
   
+
   - title: GEM National Fellowship sponsored by IBM, Adobe
     year: 2017, 2018
     highlight: true
   
-  - title: University of Michigan Rackham Merit Fellowship 
+  - title: University of Michigan Rackham Merit Fellowship
     highlight: true
     year: 2017
     # descr: 80 incoming students chosen across all departments.
@@ -33,7 +42,7 @@ honors:
     highlight: true
     year: 2017, 2019
   
-  - title: NSF Graduate Research Fellowship (Neuroscience) 
+  - title: NSF Graduate Research Fellowship (12\% selected) 
     year: 2015
     highlight: true
   

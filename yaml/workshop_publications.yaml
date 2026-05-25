@@ -1,4 +1,22 @@
 workshop_publications:
+
+  - title: "NiceWebRL: a Python library for human subject experiments with reinforcement learning environments"
+    authors: \wilka, Vikram Goddla, Ishaan Sinha, Hoon Shin, Kunal Jha
+    venue: Human-AI Complementarity for Decision Making Workshop
+    year: 2025
+    oral: true
+
+  - title: "NiceWebRL: a Python library for human subject experiments with reinforcement learning environments"
+    authors: \wilka, Vikram Goddla, Ishaan Sinha, Hoon Shin, Kunal Jha
+    venue: New York RL Workshop
+    year: 2025
+    oral: true
+
+  - title: "Learning Compositional Tasks from Language Instructions"
+    authors: Purab Seth$^*$, Neil Shah$^*$, \wilka
+    venue: "Reinforcement Learning and Decision Making Workshop"
+    year: 2025
+
   - title: "Learning Compositional Tasks from Language Instructions"
     authors: Lajanugen Logeswaran, \wilka, Honglak Lee
     venue: "NeurIPS Deep RL Workshop"

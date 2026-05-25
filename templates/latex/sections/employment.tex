@@ -2,9 +2,10 @@
 
 ~< block body >~
 ~< for item in items >~
-    {\bf <<item.place>>}, <<item.location>> \hfill {\it <<item.dates>> }
-    \\
+
+    {\bf <<item.place>>}, <<item.location>> \hfill {\it <<item.dates>> } \\
     {<<item.job>>}
+    %~< if item.department >~{\em <<item.department>>}~< endif >~
 
 ~< endfor >~
 ~< endblock body >~

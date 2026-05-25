@@ -1,4 +1,10 @@
 teaching:
+  - position: Teaching Assistant
+    organization: Harvard University
+    location: Cambridge, MA
+    dates: Fall 2025
+    desc: Building Transformers from Scratch Workshop
+
   - position: Calculus Instructor
     organization: Stony Brook University
     location: Stony Brook, NY

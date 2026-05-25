@@ -1,5 +1,27 @@
 conference_publications:
 
+  - title: "Cross-environment Cooperation Enables Zero-shot Multi-agent Coordination"
+    authors: Kunal Jha, \wilka, Natasha Jaques, Max Kleiman-Weiner
+    year: 2025
+    venue: "ICML"
+    oral: true
+
+  - title: "Predictive representations: building blocks of intelligence"
+    authors: \wilka$^*$, Momchil S Tomov$^*$, William de Cothi$^*$, Caswell Barry, Samuel J. Gershman
+    venue: "Neural Computation"
+    year: 2024
+
+  - title: "Combining behaviors with the successor features keyboard"
+    authors: \wilka, Andre Saraiva, Angelos Filos, Andrew Lampinen, Loic Matthey, Richard L Lewis, Honglak Lee, Satinder Singh, Danilo Jimenez Rezende, Daniel Zoran
+    venue: "NeurIPS"
+    year: 2024
+
+
+  - title: "Feature-Attending Recurrent Modules for Generalization in Reinforcement Learning"
+    authors: \wilka, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
+    venue: "TMLR"
+    year: 2023
+
 
   - title: "Composing Task Knowledge with Modular Successor Feature Approximators"
     authors: \wilka, Angelos Filos, Richard L. Lewis, Honglak Lee, Satinder Singh
@@ -12,7 +34,6 @@ conference_publications:
     year: 2023
 
   - title: "Successor Feature Landmarks for Long-Horizon Goal-Conditioned Reinforcement Learning"
-    authors: Lajanugen Logeswaran, \wilka, Honglak Lee
     authors: Chris Hoang, Sungryull Sohn, Jongwook Choi, \wilka, Honglak Lee
     venue: "NeurIPS"
     year: 2021

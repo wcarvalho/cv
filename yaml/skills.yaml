@@ -1,10 +1,2 @@
 skills:
-  - title: Machine Learning Software
-    details: Pytorch, TensorFlow, Theano, Keras
-    # Scikit-learn, numpy
-  - title: Neuroscience Software
-    details: Neuron
-  - title: Languages
-    details: Python, C++, C, Java
-  - title: Systems
-    details: Unix, Linux, OSX
+  - Model-based reinforcement learning, transfer learning, large language models, human-AI interaction systems, and behavioral experiments. Proficient in Python, PyTorch, JAX, and NumPy/SciPy.

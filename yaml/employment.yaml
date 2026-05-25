@@ -2,26 +2,37 @@ employment:
 
   - place: Harvard
     location: Boston, MA
-    job: Research Fellow
-    dates: Sept 2023 -- Present
+    department: Kempner Institute for the Study of Natural and Artificial Intelligence
+    job: Kempner Fellow
+    dates: Sept 2023 -- 
 
   - place: DeepMind
     location: London, UK
+    department: Generative Models Team
     job: Research Scientist Intern
     dates: Sept 2022 -- May 2023
 
   - place: DeepMind
     location: London, UK
+    department: Cognition Team
     job: Research Scientist Intern
     dates: Mar 2021 -- July 2021
 
   - place: Microsoft Research
     location: Redmond, WA
+    department: Medical Devices Group
     job: Research Scientist Intern
     dates: June 2018 -- Aug 2018
 
 
   - place: IBM Research
     location: San Jose, CA
+    department: AI Platform Research Group
     job: Research Scientist Intern
     dates: Sept 2017 -- Dec 2017
+
+  - place: VISA Research
+    location: Palo Alto, CA
+    department: AI Research Division
+    job: Research Scientist Intern
+    dates: May 2017 -- Aug 2017

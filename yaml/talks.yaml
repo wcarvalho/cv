@@ -1,57 +1,169 @@
 talks:
-  - name: "Computational Cognitive Science Group ({\\bf {\\color{red}Invited}})"
-    location: Princeton
-    date: Fall, 2023
 
-  - name: "RL at Harvard ({\\bf {\\color{red}Invited}})"
-    location: Harvard
-    date: August, 2023
+  - title: "NiceWebRL: A Python Library for Human Experiments with Reinforcement Learning Environments"
+    talks:
+    - name: Human-AI Complementarity for Decision Making Workshop
+      location: Carnegie Mellon University
+      date: September, 2025
+    - name: New York Reinforcement Learning Workshop
+      location: NYC
+      date: September, 2025
+    - name: Cognitive Computational Neuroscience Conference
+      location: Amsterdam
+      date: August, 2025
 
-  - name: "Kempner Institute"
-    location: Harvard
-    date: March, 2023
+  - title: "Naturalistic Computational Cognitive Science"
+    talks:
+    - name: Cognitive Computational Neuroscience Conference
+      location: Amsterdam
+      date: August, 2025
 
-  - name: "Computational Neuroscience Group"
-    location: UCL
-    date: October, 2022
+  - title: "Scaling Up Reinforcement Learning Theories of Cognition"
+    talks:
+    - name:  Cognitve Science Colloquiam Series
+      location: University of Maryland at College Park
+      date: December, 2026
+    - name:  Machine Intelligence through Decision-making and Interaction Lab
+      location: UT Austin
+      date: September, 2025
+    - name: "Cognition, Brain, and Behavior Seminar"
+      location: Harvard University
+      date: April, 2025
+    - name: Center for Theoretical Neuroscience
+      location: Columbia University
+      date: April, 2025
+    - name: Mattar Lab
+      location: NYU
+      date: April, 2025
+    - name: Emerge Lab
+      location: NYU
+      date: April, 2025
+    - name: Computation and Decision-Making Lab
+      location: NYU
+      date: April, 2025
+    - name: RL Seminar
+      location: Tübingen
+      date: March, 2025
+    - name: Google DeepMind
+      location: San Francisco
+      date: March, 2025
+    - name: Cognition Seminar
+      location: UC Berkeley
+      date: March, 2025
+    - name: The Rational Altruism Lab
+      location: UCLA
+      date: March, 2025
+    - name: Social and Decision Neuroscience Seminar  
+      location: Caltech
+      date: March, 2025
+    - name: Symposium on “Frontiers of Machine Learning and AI
+      location: USC 
+      date: March, 2025
+    - name: Neurolunch Seminar
+      location: Harvard 
+      date: March, 2025
+    - name: RL Seminar
+      location: UMich
+      date: February, 2025
+    - name: Vision Lab
+      location: Harvard University
+      date: February, 2025
+    - name: Sabatini Lab
+      location: Harvard University
+      date: February, 2025
 
-  - name: "Intelligent Robot Lab ({\\bf {\\color{red}Invited}})"
-    location: Brown
-    date: February, 2022
+  - title: "Predictive Representations: Building Blocks of Intelligence"
+    talks:
+    - name: Computational Cognitive Science Laboratory  
+      location: UC Berkeley
+      date: March, 2025
+    - name: Computational Cognitive Neuroscience Lab
+      location: Harvard University
+      date: February, 2025
+    - name: "Neuro Systems Club"
+      location: Harvard University
+      date: Fall, 2024
 
-  - name: Computational Cognitive Neuroscience Lab
-    location: Harvard
-    date: February, 2022
+    - name: "Mathis Group for Computational Neuroscience and AI"
+      location: EPFL
+      date: Fall, 2024
 
-  - name: "Computational Cognitive Neuroscience Lab  ({\\bf {\\color{red}Invited}})"
-    location: University of California---Berkeley
-    date: January, 2022
+    - name: "Theory of Learning Lab"
+      location: Gatsby Computational Neuroscience Unit (UCL)
+      date: Summer, 2024
 
-  - name: "Deep Learning Community of Practice ({\\bf {\\color{red}Invited}})"
-    location: Intel
-    date: January, 2022
+    - name: "Conference on the Mathematics of Neuroscience and AI"
+      location: Rome, Italy
+      date: Summer, 2024
 
-  - name: "Deep RL Workshop ({\\bf {\\color{red}Contributed Opinion}})"
-    location: NeurIPS
-    date: December, 2021
+    - name: "Theoretical Cognitive Neuroscience Lab"
+      location: Boston University
+      date: Fall, 2023
+
+  - title: "Towards Human-like Deep Reinforcement Learning"
+    talks:
+    - name: "Computational Cognitive Science Group"
+      location: Princeton
+      date: Fall, 2023
+
+    - name: "Kempner Institute"
+      location: Harvard University
+      date: March, 2023
+
+  - title: "Composing Task Knowledge with Modular Successor Feature Approximators"
+    talks:
+    - name: "RL at Harvard"
+      location: Harvard University
+      date: August, 2023
+
+  - title: "Weak Inductive Biases for Composable Primitive Representations"
+    talks:
+
+    - name: "Computational Neuroscience Group"
+      location: UCL
+      date: October, 2022
+
+    - name: "Intelligent Robot Lab"
+      location: Brown
+      date: February, 2022
+
+    - name: Computational Cognitive Neuroscience Lab
+      location: Harvard University
+      date: February, 2022
+
+    - name: "Computational Cognitive Neuroscience Lab "
+      location: University of California---Berkeley
+      date: January, 2022
+
+    - name: "Deep Learning Community of Practice"
+      location: Intel
+      date: January, 2022
+
+    - name: "Deep RL Workshop"
+      location: NeurIPS
+      date: December, 2021
 
 
-  - name: "Object Representations for Learning Workshop ({\\bf {\\color{red}Invited}})"
-    location: NeurIPS
-    date: December, 2020
+  - title: "Reinforcement Learning for Sparse-Reward Object-Interaction Tasks in a First-Person Simulated 3D Environment"
+    talks:
+    - name: "Object Representations for Learning Workshop"
+      location: NeurIPS
+      date: December, 2020
 
-  - name: Cognitive Tools Lab
-    location: University of California---San Diego
-    date: November, 2020
+    - name: Cognitive Tools Lab
+      location: University of California---San Diego
+      date: November, 2020
 
-  - name: Cognitive Science Community
-    location: University of Michigan
-    date: November, 2020
+    - name: Cognitive Science Community
+      location: University of Michigan
+      date: November, 2020
 
-  - name: Stony Brook Society of Physics
-    location: Stony Brook, NY
-    date: April, 2020
+    - name: Stony Brook Society of Physics
+      location: Stony Brook, NY
+      date: April, 2020
 
-  - name: Machine Learning Lunch Seminar
-    location: University of Southern California
-    date: April, 2017
+  - title: "Variational Recurrent Adversarial Deep Domain Adaptation"
+    talks:
+    - name: Machine Learning Lunch Seminar
+      location: University of Southern California
+      date: April, 2017

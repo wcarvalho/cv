@@ -18,9 +18,10 @@ research:
 
   - place: DeepMind
     location: London, UK
-    lab: Cognition Team
+    lab: Generative Models Team
     dates: September 2022 -- May 2023
-    advisor: Daniel Zoran
+    advisor: Danilo Rezende
+    advisor_website: https://danilorezende.com/about/
     # advisor_website: https://www.doc.ic.ac.uk/~mpsha/
     # project: "Studying agent-state representations for generalization of deep reinforcement learning agents in 3D environments"
     details:

@@ -1,25 +1,34 @@
 service:
   - name: Action Editor
     location: Transactions on Machine Learning Research
-    date: "2023"
+    date: "2023 -"
   - name: Area Chair
-    location: Reinforcement Lerning Conference
-    date: "2023"
+    location: Reinforcement Learning Conference
+    date: "2023 -"
+  - name: Reviewer
+    location: Royal Society Open Science
+    date: "2025 -"
+  - name: Reviewer
+    location: Journal on Machine Learning Research
+    date: "2025 -"
+  - name: Reviewer
+    location: Perspectives on Psychological Science
+    date: "2025 -"
   - name: Reviewer
     location: Neural Computation
-    date: "2023"
+    date: "2023 -"
   # - name: Reviewer
   #   location: ICLR
   #   date: "2023"
   - name: Reviewer
-    location: NeurIPS
-    date: "2020, 2021, 2022, 2023"
-  - name: Reviewer
     location: ICLR
-    date: "2021, 2022"
+    date: "2021 -"
   - name: Reviewer
     location: ICML
-    date: "2021, 2022"
+    date: "2021 -"
+  - name: Reviewer
+    location: NeurIPS
+    date: "2020 -"
   - name: Student Volunteer
     location: ICLR
     date: "2017"

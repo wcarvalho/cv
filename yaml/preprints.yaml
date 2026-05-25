@@ -1,9 +1,26 @@
 preprints:
-  - title: "Deep Option Keyboard: Combining Skills in Deep Reinforcement Learning"
-    authors: \wilka, Andre Saraiva, Angelos Filos, Loic Matthew, Richard L. Lewis, Honglak Lee, Satinder Singh, Daniel Zoran, Danilo Rezende
-    year: 2023
 
-  - title: "Feature-Attending Recurrent Modules Facilitate Generalization Across Object-Centric Tasks"
-    authors: \wilka, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
-    year: 2022
+  - title: "Preemptive Solving of Future Problems: Multitask Preplay in Humans and Machines"
+    authors: \wilka, Sam Hall-McMaster, Honglak Lee, Samuel J. Gershman
+    venue: Under review at PNAS
+    year: 2025
+
+  - title: "Naturalistic Computational Cognitive Science: Towards Generalizable Models and Theories That Capture The Full Range Of Natural Behavior"
+    authors: \wilka$^*$, Andrew Lampinen$^*$
+    venue: Under review at BBS
+    year: 2025
+
+  #- title: "NiceWebRL: a Python library for human subject experiments with reinforcement learning environments"
+  #  authors: \wilka, Vikram Goddla, Ishaan Sinha, Hoon Shin, Kunal Jha
+    #year: 2025
+  #  oral: true
+
+  - title: "Variational Agent Discovery"
+    authors: Aneesh Muppidi, Samuel J. Gershman, \wilka
+    year: 2025
+  
+
+#  - title: "Feature-Attending Recurrent Modules Facilitate Generalization Across Object-Centric Tasks"
+#    authors: \wilka, Andrew Lampinen, Kyriacos Nikiforou, Felix Hill, Murray Shanahan
+#    year: 2022
 

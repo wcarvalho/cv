@@ -2,7 +2,7 @@
 
 ~< block body >~
   ~< for article in items >~
-    <<article.authors>>. {\it``<<article.title>>.''} In <<article.venue>>, <<article.year>>
+    <<article.authors>>. {\it``<<article.title>>.''} In {\bf <<article.venue>>}, <<article.year>>
     ~< if article.spotlight >~
       {\bf {\color{red}(Spotlight)}}
     ~< endif >~

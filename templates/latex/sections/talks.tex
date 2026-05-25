@@ -1,8 +1,12 @@
 ~< extends "section.tex" >~
 
 ~< block body >~
-  ~< for talk in items >~
-    << talk.name >>. << talk.location >>. (<< talk.date >>) \\
+  ~< for talk_group in items >~
+    \textbf{<< talk_group.title >>} \\
+    ~< for talk in talk_group.talks >~
+      \hspace{0.2in} << talk.name >>. \textit{<< talk.location >>}. (<< talk.date >>) \\
+    ~< endfor >~
+    \\
   ~< endfor >~
 \vspace{-.15in}
 ~< endblock body >~
