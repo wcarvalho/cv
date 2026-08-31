@@ -1,7 +1,7 @@
 # (tag, section type, title)
 order:
   - [research_interests, Research Interests]
-  - [skills, Skills]
+  #- [skills, Skills]
   # - [research_topics, Topics]
   - [employment, Employment]
   - [education, Education]
@@ -27,7 +27,10 @@ order:
 
 research_interests:
   #- My long-term goal is to develop theories for human reinforcement learning and generalization. In particular, I'm interested in how discover and exploit richly structured representations to enable sophisticated behavior and rapid adaptation. Currently, I'm interested in leveraging successor features to provide a unified framework for how brains learn, combine and transfer predictive knowledge and behavior.
-  - I aim to build AI that empowers human relationships and human caregiving. My short-term goal is to develop AI systems that learn structured representations of people's intrinsic values and leverage these to help people make deeply fulfilling decisions and provide care for those they care about. My long-term goal is to deploy these systems to empower social and economic mobility for disadvantaged populations. To pursue this, I bring technical training spanning deep reinforcement learning and computational cognitive science. My PhD developed RL agents that transfer learned skills to new situations via structured representations. As a Kempner Fellow at Harvard, I developed computational models of how people make decisions in naturalistic settings.
+  #- I aim to build AI that empowers human relationships and human caregiving. My short-term goal is to develop AI systems that learn structured representations of people's intrinsic values and leverage these to help people make deeply fulfilling decisions and provide care for those they care about. My long-term goal is to deploy these systems to empower social and economic mobility for disadvantaged populations. To pursue this, I bring technical training spanning deep reinforcement learning and computational cognitive science. My PhD developed RL agents that transfer learned skills to new situations via structured representations. As a Kempner Fellow at Harvard, I developed computational models of how people make decisions in naturalistic settings.
+  #- My research aims to characterize the human reinforcement learning algorithm so that we can build machines that help us live rewarding lives. I've built Deep RL models of both human and AI learning, and validated them by both predicting real human behavior in naturalistic environments and by improving AI performance in those environments. My research spans long-horizon RL, multi-agent collaboration with humans, and open-source infrastructure for human-AI experiments. My long-term goal is to develop AI that promotes human flourishing.
+  - My research aims to build AI that helps us live more rewarding lives. To get there, I study deep reinforcement learning in naturalistic settings---enabling us to both produce capable agents and to characterize the human reinforcement learning algorithm. My research spans continual learning, long-horizon RL, multi-agent collaboration with humans, and open-source infrastructure for human-AI experiments. My long-term goal is to develop AI that promotes human flourishing.
+
   #To accomplish this, I integrate fields that think about natural and artificial intelligence, and fields that that study the relationship between technology and society.
 
 

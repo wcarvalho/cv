@@ -1,7 +1,7 @@
 conference_publications:
 
   - title: "Cross-environment Cooperation Enables Zero-shot Multi-agent Coordination"
-    authors: Kunal Jha, \wilka, Natasha Jaques, Max Kleiman-Weiner
+    authors: Kunal Jha, \wilka, Yancheng Liang, Simon S Du, Max Kleiman-Weiner, Natasha Jaques
     year: 2025
     venue: "ICML"
     oral: true
